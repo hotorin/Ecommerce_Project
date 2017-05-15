@@ -1,4 +1,7 @@
 <?php
+session_start();
+?>
+<?php
 
   $card_sup = array("SP-001.jpg", "SP-002.jpg", "SP-003.jpg", "SP-004.jpg", "SP-005.jpg",
                   "SP-006.jpg", "SP-007.jpg", "SP-008.jpg", "SP-009.jpg", "SP-010.jpg");
@@ -56,11 +59,12 @@
         </div>
       </div>
       <div style="height:50px;background-color: white;margin-top:140px">
-        <div class="col-md-4"></div>
+        <div class="col-md-2"></div>
         <div class="col-md-2" style="padding:14">Home</div>
         <div class="col-md-2" style="padding:14">Product</div>
         <div class="col-md-2" style="padding:14">About Us</div>
         <div class="col-md-2" style="padding:14">Contact</div>
+        <div class="col-md-2" style="padding:14">Cart</div>
       </div>
     </div>
 

@@ -1,4 +1,7 @@
 <?php
+session_start();
+?>
+<?php
 
   $card_gr = array("G-FC04-001.jpg", "G-FC04-002.jpg", "G-FC04-003.jpg", "G-FC04-004.jpg", "G-FC04-005.jpg", "G-FC04-006.jpg", "G-FC04-007.jpg", "G-FC04-008.jpg");
   $card_gr_name = array("集光の聖騎士 オルビウス・アヴァロ",
@@ -71,11 +74,12 @@
         </div>
       </div>
       <div style="height:50px;background-color: white;margin-top:140px">
-        <div class="col-md-4"></div>
+        <div class="col-md-2"></div>
         <div class="col-md-2" style="padding:14">Home</div>
         <div class="col-md-2" style="padding:14">Product</div>
         <div class="col-md-2" style="padding:14">About Us</div>
         <div class="col-md-2" style="padding:14">Contact</div>
+        <div class="col-md-2" style="padding:14">Cart</div>
       </div>
     </div>
 

@@ -1,4 +1,7 @@
 <?php
+session_start();
+?>
+<?php
 
   $card_sp = array("SS-WE15-08.jpg", "SS-WE15-12.jpg", "SS-WE15-26.jpg");
   $card_sp_name = array("この刃に懸けて シャナ(サイン入り)",
@@ -122,11 +125,12 @@
         </div>
       </div>
       <div style="height:50px;background-color: white;margin-top:140px">
-        <div class="col-md-4"></div>
+        <div class="col-md-2"></div>
         <div class="col-md-2" style="padding:14">Home</div>
         <div class="col-md-2" style="padding:14">Product</div>
         <div class="col-md-2" style="padding:14">About Us</div>
         <div class="col-md-2" style="padding:14">Contact</div>
+        <div class="col-md-2" style="padding:14">Cart</div>
       </div>
     </div>
 

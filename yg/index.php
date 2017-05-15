@@ -1,4 +1,7 @@
 <?php
+session_start();
+?>
+<?php
 
   $card_cr = array("CP17-JP005.jpg", "CP17-JP006.jpg", "CP17-JP011.jpg", "CP17-JP015.jpg", "CP17-JP019.jpg", "CP17-JP020.jpg", "CP17-JP023.jpg", "CP17-JP040.jpg");
   $card_cr_name = array("EM五虹の魔術師",
@@ -85,11 +88,16 @@
         </div>
       </div>
       <div style="height:50px;background-color: white;margin-top:140px">
-        <div class="col-md-4"></div>
+        <div class="col-md-2"></div>
         <div class="col-md-2" style="padding:14">Home</div>
         <div class="col-md-2" style="padding:14">Product</div>
         <div class="col-md-2" style="padding:14">About Us</div>
         <div class="col-md-2" style="padding:14">Contact</div>
+        <div class="col-md-2" style="padding:14">
+          <a href="cart.php">
+            Cart
+          </a>
+        </div>
       </div>
     </div>
 

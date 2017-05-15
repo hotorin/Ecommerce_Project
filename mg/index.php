@@ -1,4 +1,7 @@
 <?php
+session_start();
+?>
+<?php
   $card_m = array("002-264.jpg", "009-264.jpg", "056-264.jpg", "067-264.jpg", "073-264.jpg", "096-264.jpg", "110-264.jpg", "112-264.jpg");
   $card_m_name = array("発明の天使(Foil)",
                         "激変の機械巨人(Foil)",
@@ -79,11 +82,12 @@
         </div>
       </div>
       <div style="height:50px;background-color: white;margin-top:140px">
-        <div class="col-md-4"></div>
+        <div class="col-md-2"></div>
         <div class="col-md-2" style="padding:14">Home</div>
         <div class="col-md-2" style="padding:14">Product</div>
         <div class="col-md-2" style="padding:14">About Us</div>
         <div class="col-md-2" style="padding:14">Contact</div>
+        <div class="col-md-2" style="padding:14">Cart</div>
       </div>
     </div>
 

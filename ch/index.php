@@ -1,4 +1,7 @@
 <?php
+session_start();
+?>
+<?php
 
   $card_pr = array("SH-BPR001.jpg", "SH-BPR002.jpg", "SH-BPR003.jpg", "SH-BPR004.jpg");
   $card_pr_name = array("目が離せない「澤村・スペンサー・英梨々」",
@@ -107,11 +110,12 @@
         </div>
       </div>
       <div style="height:50px;background-color: white;margin-top:140px">
-        <div class="col-md-4"></div>
+        <div class="col-md-2"></div>
         <div class="col-md-2" style="padding:14">Home</div>
         <div class="col-md-2" style="padding:14">Product</div>
         <div class="col-md-2" style="padding:14">About Us</div>
         <div class="col-md-2" style="padding:14">Contact</div>
+        <div class="col-md-2" style="padding:14">Cart</div>
       </div>
     </div>
 
@@ -136,7 +140,7 @@
                 <li class="card_unit rarity_SP">
 
                   <div class="headline gr_bg">
-                    <form action="/api/favorite/add.php" method="post" data-api="favorite">
+                    <form action="#" method="post" data-api="favorite">
                       <p class="favorite">
                         <span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_favorite_off.png" alt="☆" data-prevent-submit=""></span>
                       </p>
@@ -148,22 +152,29 @@
 
 
                   <div class="image_box">
-                    <a href="/game_chaos/carddetail/cardpreview.php?VER=saekano1.0&amp;CID=10111&amp;MODE=sell">
-                      <p class="image"><img src="pic/<?php echo $card_sp[$i]; ?>" height="126" alt=""></p>
-                    </a>
+                    <p class="image"><img src="pic/<?php echo $card_sp[$i]; ?>" height="126" alt=""></p>
                     <p class="name"><?php echo $card_sp_name[$i]; ?></p>
                   </div>
 
                   <div class="price_box">
-                    <form action="" method="post" data-api="cart_add" data-api-ext="card_unit">
+                    <form action="../addCart.php" method="post">
+                      <input type="hidden" name="type" value="ch" >
+                      <input type="hidden" name="price" value="<?php echo $card_sp_price[$i]; ?>" >
+                      <input type="hidden" name="name" value="<?php echo $card_sp_name[$i]; ?>" >
+                      <input type="hidden" name="pic" value="<?php echo $card_sp[$i]; ?>" >
+
                       <p class="price">
                         <br><b><?php echo $card_sp_price[$i]; ?></b>
                       </p>
                       <p class="stock">Quantity：<?php echo $card_sp_stock[$i]; ?></p>
                       <p class="quantity">
-                        <input type="number" max=<?php echo $card_sp_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
+                        <input type="number" name="quan" max=<?php echo $card_sp_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
                       </p>
-                      <p class="cart"><span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png" alt="カートへ" data-prevent-submit=""></span></p>
+                      <p class="cart">
+                        <span class="submit_wrapper">
+                          <input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png">
+                        </span>
+                      </p>
                     </form>
                   </div>
 
