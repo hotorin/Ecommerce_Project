@@ -46,7 +46,7 @@ for($i=0; $i<sizeof($_SESSION['card']) ; $i++){
         <div class="col-md-2" style="padding:14">Product</div>
         <div class="col-md-2" style="padding:14">About Us</div>
         <div class="col-md-2" style="padding:14">Contact</div>
-        <a href="./cart.php" >
+        <a href="../cart.php" >
           <div class="col-md-2" style="padding:14;">Cart</div>
         </a>
       </div>
@@ -85,7 +85,7 @@ for($i=0; $i<sizeof($_SESSION['card']) ; $i++){
           </div>
           <div class="section_body">
             <div class="group_box">
-              <h3>ChaosTCG｜カオス</h3>
+              <h3>Card List</h3>
               <table>
                 <thead>
                   <tr>

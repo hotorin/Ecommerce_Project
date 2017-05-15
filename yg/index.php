@@ -93,11 +93,9 @@ session_start();
         <div class="col-md-2" style="padding:14">Product</div>
         <div class="col-md-2" style="padding:14">About Us</div>
         <div class="col-md-2" style="padding:14">Contact</div>
-        <div class="col-md-2" style="padding:14">
-          <a href="cart.php">
-            Cart
-          </a>
-        </div>
+        <a href="../cart.php" >
+          <div class="col-md-2" style="padding:14;">Cart</div>
+        </a>
       </div>
     </div>
 
