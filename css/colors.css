@@ -1,0 +1,1725 @@
+@charset "UTF-8";
+#container .gr_bg {
+  background-color: #bdbdbd;
+  color: #ffffff;
+}
+#container .game_sen .rarity_SS .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_sen .rarity_SS .gr_color {
+  color: #6699cc;
+}
+#container .game_sen .rarity_BSS .gr_bg {
+  background-color: #00cc66;
+}
+#container .game_sen .rarity_BSS .gr_color {
+  color: #00cc66;
+}
+#container .game_sen .rarity_out {
+  background-color: #DDDDDD;
+}
+#container .game_sen .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_sen .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_sen .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_sen .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_sen .rarity_UC .gr_bg {
+  background-color: #494949;
+}
+#container .game_sen .rarity_UC .gr_color {
+  color: #494949;
+}
+#container .game_sen .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_sen .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_sen .rarity_SJK .gr_bg {
+  background-color: #663300;
+}
+#container .game_sen .rarity_SJK .gr_color {
+  color: #663300;
+}
+#container .game_sen .rarity_EX .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_sen .rarity_EX .gr_color {
+  color: #9933ff;
+}
+#container .game_sen .family_oda{
+	color:#0066CC;
+}
+#container .game_sen .family_takeda{
+	color:#FF0000;
+}
+#container .game_sen .family_uesugi{
+	color:#666666;
+}
+#container .game_sen .family_imagawa{
+	color:#51077C;
+}
+#container .game_sen .family_asaiasakura{
+	color:#C09;
+}
+#container .game_sen .family_honganji{
+	color:#390;
+}
+#container .game_sen .family_houjou{
+	color:#7C7301;
+}
+#container .game_sen .family_mouri{
+	color:#008063;
+}
+#container .game_sen .family_simadu{
+	color:#069DC4;
+}
+#container .game_sen .family_date{
+	color:#000066;
+}
+#container .game_sen .family_toyotomi{
+	color:#FF9900;
+}
+#container .game_sen .family_tokugawa{
+	color:#2F4F4F;
+}
+#container .game_sen .family_tyosokabe{
+	color:#9400D3;
+}
+#container .game_sen .family_tawest{
+	color:#FF6600;
+}
+#container .game_sen .family_taeast{
+	color:#FF6600;
+}
+
+#container .game_lov3 .rarity_UR .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_lov3 .rarity_UR .gr_color {
+  color: #6699cc;
+}
+#container .game_lov3 .tribe_pbeast {
+  color: #FF6600;
+}
+#container .game_lov3 .tribe_god {
+  color: #FF9900;
+}
+#container .game_lov3 .tribe_devil {
+  color: #666666;
+}
+#container .game_lov3 .tribe_sea {
+  color: #3366CC;
+}
+#container .game_lov3 .tribe_undead {
+  color: #663399;
+}
+#container .game_lov3 .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_lov3 .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_lov3 .rarity_ST .gr_bg {
+  background-color: #494949;
+}
+#container .game_lov3 .rarity_ST .gr_color {
+  color: #494949;
+}
+#container .game_lov3 .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_lov3 .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_lov3 .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_lov3 .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_lov3 .rarity_SP .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_lov3 .rarity_SP .gr_color {
+  color: #9933ff;
+}
+#container .game_lov3 .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_lov3 .rarity_PR .gr_color {
+  color: #9933ff;
+}
+#container .game_wccf .rarity_KIRA .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_wccf .rarity_KIRA .gr_color {
+  color: #6699cc;
+}
+#container .game_wccf .rarity_KURO .gr_bg {
+  background-color: #494949;
+}
+#container .game_wccf .rarity_KURO .gr_color {
+  color: #494949;
+}
+#container .game_wccf .rarity_SHIRO .gr_bg {
+  background-color: #93949f;
+}
+#container .game_wccf .rarity_SHIRO .gr_color {
+  color: #93949f;
+}
+#container .game_wccf .rarity_EX .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_wccf .rarity_EX .gr_color {
+  color: #9933ff;
+}
+#container .game_ws .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_ws .rarity_SP .gr_color {
+  color: #6699cc;
+}
+#container .game_ws .rarity_SSP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_ws .rarity_SSP .gr_color {
+  color: #6699cc;
+}
+#container .game_ws .rarity_XR .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_ws .rarity_XR .gr_color {
+  color: #6699cc;
+}
+#container .game_ws .rarity_RRR .gr_bg {
+  background-color: #00cc66;
+}
+#container .game_ws .rarity_RRR .gr_color {
+  color: #00cc66;
+}
+#container .game_ws .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_ws .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_ws .rarity_RR .gr_bg {
+  background-color: #ff6633;
+}
+#container .game_ws .rarity_RR .gr_color {
+  color: #ff6633;
+}
+#container .game_ws .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_ws .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_ws .rarity_U .gr_bg {
+  background-color: #494949;
+}
+#container .game_ws .rarity_U .gr_color {
+  color: #494949;
+}
+#container .game_ws .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_ws .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_ws .rarity_CR .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_ws .rarity_CR .gr_color {
+  color: #cc6699;
+}
+#container .game_ws .rarity_CC .gr_bg {
+  background-color: #93949f;
+}
+#container .game_ws .rarity_CC .gr_color {
+  color: #93949f;
+}
+#container .game_ws .rarity_TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_ws .rarity_TD .gr_color {
+  color: #99cc33;
+}
+#container .game_ws .rarity_RE .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_ws .rarity_RE .gr_color {
+  color: #99cc33;
+}
+#container .game_ws .rarity_S-R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_ws .rarity_S-R .gr_color {
+  color: #cc6699;
+}
+#container .game_ws .rarity_S-C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_ws .rarity_S-C .gr_color {
+  color: #93949f;
+}
+#container .game_ws .rarity_S-CR .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_ws .rarity_S-CR .gr_color {
+  color: #cc6699;
+}
+#container .game_ws .rarity_S-CC .gr_bg {
+  background-color: #93949f;
+}
+#container .game_ws .rarity_S-CC .gr_color {
+  color: #93949f;
+}
+#container .game_ws .rarity_S-TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_ws .rarity_S-TD .gr_color {
+  color: #99cc33;
+}
+#container .game_ws .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_ws .rarity_PR .gr_color {
+  color: #9933ff;
+}
+
+/* fujii add */
+
+#container .game_vg .rarity_LR .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_vg .rarity_LR .gr_color {
+  color: #6699cc;
+}
+/* // fujii add */
+
+#container .game_vg .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_vg .rarity_SP .gr_color {
+  color: #6699cc;
+}
+#container .game_vg .rarity_RRR .gr_bg {
+  background-color: #00cc66;
+}
+#container .game_vg .rarity_RRR .gr_color {
+  color: #00cc66;
+}
+#container .game_vg .rarity_RR .gr_bg {
+  background-color: #ff6633;
+}
+#container .game_vg .rarity_RR .gr_color {
+  color: #ff6633;
+}
+#container .game_vg .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_vg .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_vg .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_vg .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_vg .rarity_S-TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_vg .rarity_S-TD .gr_color {
+  color: #99cc33;
+}
+#container .game_vg .rarity_TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_vg .rarity_TD .gr_color {
+  color: #99cc33;
+}
+#container .game_vg .rarity_FD .gr_bg {
+  background-color: #494949;
+}
+#container .game_vg .rarity_FD .gr_color {
+  color: #494949;
+}
+#container .game_vg .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_vg .rarity_PR .gr_color {
+  color: #9933ff;
+}
+#container .game_chaos .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_chaos .rarity_SP .gr_color {
+  color: #6699cc;
+}
+#container .game_chaos .rarity_SPP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_chaos .rarity_SPP .gr_color {
+  color: #6699cc;
+}
+#container .game_chaos .rarity_RRR .gr_bg {
+  background-color: #00cc66;
+}
+#container .game_chaos .rarity_RRR .gr_color {
+  color: #00cc66;
+}
+#container .game_chaos .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_chaos .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_chaos .rarity_SC .gr_bg {
+  background-color: #93949f;
+}
+#container .game_chaos .rarity_SC .gr_color {
+  color: #93949f;
+}
+#container .game_chaos .rarity_RR .gr_bg {
+  background-color: #ff6633;
+}
+#container .game_chaos .rarity_RR .gr_color {
+  color: #ff6633;
+}
+#container .game_chaos .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_chaos .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_chaos .rarity_U .gr_bg {
+  background-color: #494949;
+}
+#container .game_chaos .rarity_U .gr_color {
+  color: #494949;
+}
+#container .game_chaos .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_chaos .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_chaos .rarity_T .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_chaos .rarity_T .gr_color {
+  color: #99cc33;
+}
+#container .game_chaos .rarity_SE .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_chaos .rarity_SE .gr_color {
+  color: #9933ff;
+}
+#container .game_chaos .rarity_S-T .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_chaos .rarity_S-T .gr_color {
+  color: #99cc33;
+}
+#container .game_chaos .rarity_S-P .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_chaos .rarity_S-P .gr_color {
+  color: #9933ff;
+}
+#container .game_chaos .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_chaos .rarity_PR .gr_color {
+  color: #9933ff;
+}
+#container .game_chaos .rarity_P .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_chaos .rarity_P .gr_color {
+  color: #9933ff;
+}
+
+/* fujii add */
+
+#container .game_chaos .rarity_SRR .gr_bg {
+  background-color: #ff6633;
+}
+#container .game_chaos .rarity_SRR .gr_color {
+  color: #ff6633;
+}
+/* //fujii add */
+
+#container .game_santcg .rarity_CTR .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_santcg .rarity_CTR .gr_color {
+  color: #6699cc;
+}
+#container .game_santcg .rarity_TR .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_santcg .rarity_TR .gr_color {
+  color: #6699cc;
+}
+#container .game_santcg .rarity_PT .gr_bg {
+  background-color: #d6d6d6;
+}
+#container .game_santcg .rarity_PT .gr_color {
+  color: #d6d6d6;
+}
+#container .game_santcg .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_santcg .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_santcg .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_santcg .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_santcg .rarity_U .gr_bg {
+  background-color: #494949;
+}
+#container .game_santcg .rarity_U .gr_color {
+  color: #494949;
+}
+#container .game_santcg .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_santcg .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_santcg .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_santcg .rarity_PR .gr_color {
+  color: #9933ff;
+}
+#container .game_santcg .rarity_P-SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_santcg .rarity_P-SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_santcg .rarity_P-R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_santcg .rarity_P-R .gr_color {
+  color: #cc6699;
+}
+#container .game_santcg .rarity_P-U .gr_bg {
+  background-color: #494949;
+}
+#container .game_santcg .rarity_P-U .gr_color {
+  color: #494949;
+}
+#container .game_santcg .rarity_P-C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_santcg .rarity_P-C .gr_color {
+  color: #93949f;
+}
+
+
+#container .game_pm .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_pm .rarity_SP .gr_color {
+  color: #6699cc;
+}
+#container .game_pm .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_pm .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_pm .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_pm .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_pm .rarity_UC .gr_bg {
+  background-color: #494949;
+}
+#container .game_pm .rarity_UC .gr_color {
+  color: #494949;
+}
+#container .game_pm .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_pm .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_pm .rarity_TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_pm .rarity_TD .gr_color {
+  color: #99cc33;
+}
+#container .game_pm .rarity_P-R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_pm .rarity_P-R .gr_color {
+  color: #cc6699;
+}
+#container .game_pm .rarity_P-UC .gr_bg {
+  background-color: #494949;
+}
+#container .game_pm .rarity_P-UC .gr_color {
+  color: #494949;
+}
+#container .game_pm .rarity_P-C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_pm .rarity_P-C .gr_color {
+  color: #93949f;
+}
+#container .game_pm .rarity_S-TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_pm .rarity_S-TD .gr_color {
+  color: #99cc33;
+}
+#container .game_pm .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_pm .rarity_PR .gr_color {
+  color: #9933ff;
+}
+#container .game_mc .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_mc .rarity_SP .gr_color {
+  color: #6699cc;
+}
+#container .game_mc .rarity_VF .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_mc .rarity_VF .gr_color {
+  color: #6699cc;
+}
+#container .game_mc .rarity_S-SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_mc .rarity_S-SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_mc .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_mc .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_mc .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_mc .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_mc .rarity_U .gr_bg {
+  background-color: #494949;
+}
+#container .game_mc .rarity_U .gr_color {
+  color: #494949;
+}
+#container .game_mc .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_mc .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_mc .rarity_RR .gr_bg {
+  background-color: #ff6633;
+}
+#container .game_mc .rarity_RR .gr_color {
+  color: #ff6633;
+}
+#container .game_mc .rarity_TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_mc .rarity_TD .gr_color {
+  color: #99cc33;
+}
+#container .game_mc .rarity_S-R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_mc .rarity_S-R .gr_color {
+  color: #cc6699;
+}
+#container .game_mc .rarity_S-U .gr_bg {
+  background-color: #494949;
+}
+#container .game_mc .rarity_S-U .gr_color {
+  color: #494949;
+}
+#container .game_mc .rarity_S-C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_mc .rarity_S-C .gr_color {
+  color: #93949f;
+}
+#container .game_mc .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_mc .rarity_PR .gr_color {
+  color: #9933ff;
+}
+#container .game_vs .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_vs .rarity_SP .gr_color {
+  color: #6699cc;
+}
+#container .game_vs .rarity_RRR .gr_bg {
+  background-color: #00cc66;
+}
+#container .game_vs .rarity_RRR .gr_color {
+  color: #00cc66;
+}
+#container .game_vs .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_vs .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_vs .rarity_RR .gr_bg {
+  background-color: #ff6633;
+}
+#container .game_vs .rarity_RR .gr_color {
+  color: #ff6633;
+}
+#container .game_vs .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_vs .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_vs .rarity_U .gr_bg {
+  background-color: #494949;
+}
+#container .game_vs .rarity_U .gr_color {
+  color: #494949;
+}
+#container .game_vs .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_vs .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_vs .rarity_TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_vs .rarity_TD .gr_color {
+  color: #99cc33;
+}
+#container .game_vs .rarity_S-R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_vs .rarity_S-R .gr_color {
+  color: #cc6699;
+}
+#container .game_vs .rarity_S-C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_vs .rarity_S-C .gr_color {
+  color: #93949f;
+}
+#container .game_vs .rarity_S-TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_vs .rarity_S-TD .gr_color {
+  color: #99cc33;
+}
+#container .game_vs .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_vs .rarity_PR .gr_color {
+  color: #9933ff;
+}
+#container .game_pfl .rarity_LE .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_pfl .rarity_LE .gr_color {
+  color: #6699cc;
+}
+#container .game_pfl .rarity_BAN .gr_bg {
+  background-color: #00cc66;
+}
+#container .game_pfl .rarity_BAN .gr_color {
+  color: #00cc66;
+}
+#container .game_pfl .rarity_SFW .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_pfl .rarity_SFW .gr_color {
+  color: #ff9a00;
+}
+#container .game_pfl .rarity_SMF .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_pfl .rarity_SMF .gr_color {
+  color: #ff9a00;
+}
+#container .game_pfl .rarity_SDF .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_pfl .rarity_SDF .gr_color {
+  color: #ff9a00;
+}
+#container .game_pfl .rarity_ST\+ .gr_bg {
+  background-color: #ff6633;
+}
+#container .game_pfl .rarity_ST\+ .gr_color {
+  color: #ff6633;
+}
+#container .game_pfl .rarity_ST .gr_bg {
+  background-color: #494949;
+}
+#container .game_pfl .rarity_ST .gr_color {
+  color: #494949;
+}
+#container .game_pfl .rarity_REG .gr_bg {
+  background-color: #93949f;
+}
+#container .game_pfl .rarity_REG .gr_color {
+  color: #93949f;
+}
+
+/* fujii add */
+
+#container .game_bf .rarity_BR .gr_bg {
+  background-color: #6699CC;
+}
+#container .game_bf .rarity_BR .gr_color {
+  color: #6699CC;
+}
+
+#container .game_bf .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_bf .rarity_SP .gr_color {
+  color: #6699cc;
+}
+
+#container .game_bf .rarity_RRR .gr_bg {
+  background-color: #00cc66;
+}
+#container .game_bf .rarity_RRR .gr_color {
+  color: #00cc66;
+}
+
+#container .game_bf .rarity_RR .gr_bg {
+  background-color: #ff6633;
+}
+#container .game_bf .rarity_RR .gr_color {
+  color: #ff6633;
+}
+
+#container .game_bf .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_bf .rarity_R .gr_color {
+  color: #cc6699;
+}
+
+#container .game_bf .rarity_U .gr_bg {
+  background-color: #494949;
+}
+#container .game_bf .rarity_U .gr_color {
+  color: #494949;
+}
+
+#container .game_bf .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_bf .rarity_C .gr_color {
+  color: #93949f;
+}
+
+#container .game_bf .rarity_S-TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_bf .rarity_S-TD .gr_color {
+  color: #99cc33;
+}
+
+#container .game_bf .rarity_TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_bf .rarity_TD .gr_color {
+  color: #99cc33;
+}
+
+#container .game_bf .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_bf .rarity_PR .gr_color {
+  color: #9933ff;
+}
+
+
+#container .game_neo .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_neo .rarity_SP .gr_color {
+  color: #6699cc;
+}
+#container .game_neo .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_neo .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_neo .rarity_RRR .gr_bg {
+  background-color: #00cc66;
+}
+#container .game_neo .rarity_RRR .gr_color {
+  color: #00cc66;
+}
+#container .game_neo .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_neo .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_neo .rarity_U .gr_bg {
+  background-color: #494949;
+}
+#container .game_neo .rarity_U .gr_color {
+  color: #494949;
+}
+#container .game_neo .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_neo .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_neo .rarity_TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_neo .rarity_TD .gr_color {
+  color: #99cc33;
+}
+#container .game_neo .rarity_P-SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_neo .rarity_P-SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_neo .rarity_P-R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_neo .rarity_P-R .gr_color {
+  color: #cc6699;
+}
+#container .game_neo .rarity_P-U .gr_bg {
+  background-color: #494949;
+}
+#container .game_neo .rarity_P-U .gr_color {
+  color: #494949;
+}
+#container .game_neo .rarity_P-C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_neo .rarity_P-C .gr_color {
+  color: #93949f;
+}
+#container .game_neo .rarity_S-TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_neo .rarity_S-TD .gr_color {
+  color: #99cc33;
+}
+#container .game_neo .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_neo .rarity_PR .gr_color {
+  color: #9933ff;
+}
+
+#container .game_wx .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_wx .rarity_SP .gr_color {
+  color: #6699cc;
+}
+#container .game_wx .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_wx .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_wx .rarity_RRR .gr_bg {
+  background-color: #00cc66;
+}
+#container .game_wx .rarity_RRR .gr_color {
+  color: #00cc66;
+}
+#container .game_wx .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_wx .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_wx .rarity_U .gr_bg {
+  background-color: #494949;
+}
+#container .game_wx .rarity_U .gr_color {
+  color: #494949;
+}
+#container .game_wx .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_wx .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_wx .rarity_TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_wx .rarity_TD .gr_color {
+  color: #99cc33;
+}
+#container .game_wx .rarity_P-SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_wx .rarity_P-SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_wx .rarity_P-R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_wx .rarity_P-R .gr_color {
+  color: #cc6699;
+}
+#container .game_wx .rarity_P-U .gr_bg {
+  background-color: #494949;
+}
+#container .game_wx .rarity_P-U .gr_color {
+  color: #494949;
+}
+#container .game_wx .rarity_P-C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_wx .rarity_P-C .gr_color {
+  color: #93949f;
+}
+#container .game_wx .rarity_S-TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_wx .rarity_S-TD .gr_color {
+  color: #99cc33;
+}
+#container .game_wx .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_wx .rarity_PR .gr_color {
+  color: #9933ff;
+}
+
+#container .game_zx .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_zx .rarity_SP .gr_color {
+  color: #6699cc;
+}
+#container .game_zx .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_zx .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_zx .rarity_RRR .gr_bg {
+  background-color: #00cc66;
+}
+#container .game_zx .rarity_RRR .gr_color {
+  color: #00cc66;
+}
+#container .game_zx .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_zx .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_zx .rarity_U .gr_bg {
+  background-color: #494949;
+}
+#container .game_zx .rarity_U .gr_color {
+  color: #494949;
+}
+#container .game_zx .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_zx .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_zx .rarity_TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_zx .rarity_TD .gr_color {
+  color: #99cc33;
+}
+#container .game_zx .rarity_P-SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_zx .rarity_P-SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_zx .rarity_P-R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_zx .rarity_P-R .gr_color {
+  color: #cc6699;
+}
+#container .game_zx .rarity_P-U .gr_bg {
+  background-color: #494949;
+}
+#container .game_zx .rarity_P-U .gr_color {
+  color: #494949;
+}
+#container .game_zx .rarity_P-C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_zx .rarity_P-C .gr_color {
+  color: #93949f;
+}
+#container .game_zx .rarity_S-TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_zx .rarity_S-TD .gr_color {
+  color: #99cc33;
+}
+#container .game_zx .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_zx .rarity_PR .gr_color {
+  color: #9933ff;
+}
+
+
+#container .game_mtg .rarity_M .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_mtg .rarity_M .gr_color {
+  color: #ff9a00;
+}
+#container .game_mtg .rarity_M-foil .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_mtg .rarity_M-foil .gr_color {
+  color: #ff9a00;
+}
+
+#container .game_mtg .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_mtg .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_mtg .rarity_R-foil .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_mtg .rarity_R-foil .gr_color {
+  color: #cc6699;
+}
+
+#container .game_mtg .rarity_U .gr_bg {
+  background-color: #494949;
+}
+#container .game_mtg .rarity_U .gr_color {
+  color: #494949;
+}
+#container .game_mtg .rarity_U-foil .gr_bg {
+  background-color: #494949;
+}
+#container .game_mtg .rarity_U-foil .gr_color {
+  color: #494949;
+}
+
+#container .game_mtg .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_mtg .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_mtg .rarity_C-foil .gr_bg {
+  background-color: #93949f;
+}
+#container .game_mtg .rarity_C-foil .gr_color {
+  color: #93949f;
+}
+
+#container .game_mtg .rarity_L .gr_bg {
+  background-color: #663300;
+}
+#container .game_mtg .rarity_L .gr_color {
+  color: #663300;
+}
+#container .game_mtg .rarity_L-foil .gr_bg {
+  background-color: #663300;
+}
+#container .game_mtg .rarity_L-foil .gr_color {
+  color: #663300;
+}
+
+#container .game_mtg .rarity_T .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_mtg .rarity_T .gr_color {
+  color: #99cc33;
+}
+#container .game_mtg .rarity_E .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_mtg .rarity_E .gr_color {
+  color: #99cc33;
+}
+
+
+#container .game_ll .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_ll .rarity_SP .gr_color {
+  color: #6699cc;
+}
+#container .game_ll .rarity_SSP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_ll .rarity_SSP .gr_color {
+  color: #6699cc;
+}
+#container .game_ll .rarity_XR .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_ll .rarity_XR .gr_color {
+  color: #6699cc;
+}
+#container .game_ll .rarity_RRR .gr_bg {
+  background-color: #00cc66;
+}
+#container .game_ll .rarity_RRR .gr_color {
+  color: #00cc66;
+}
+#container .game_ll .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_ll .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_ll .rarity_RR .gr_bg {
+  background-color: #ff6633;
+}
+#container .game_ll .rarity_RR .gr_color {
+  color: #ff6633;
+}
+#container .game_ll .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_ll .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_ll .rarity_U .gr_bg {
+  background-color: #494949;
+}
+#container .game_ll .rarity_U .gr_color {
+  color: #494949;
+}
+#container .game_ll .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_ll .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_ll .rarity_CR .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_ll .rarity_CR .gr_color {
+  color: #cc6699;
+}
+#container .game_ll .rarity_CC .gr_bg {
+  background-color: #93949f;
+}
+#container .game_ll .rarity_CC .gr_color {
+  color: #93949f;
+}
+#container .game_ll .rarity_TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_ll .rarity_TD .gr_color {
+  color: #99cc33;
+}
+#container .game_ll .rarity_RE .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_ll .rarity_RE .gr_color {
+  color: #99cc33;
+}
+#container .game_ll .rarity_S-R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_ll .rarity_S-R .gr_color {
+  color: #cc6699;
+}
+#container .game_ll .rarity_S-C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_ll .rarity_S-C .gr_color {
+  color: #93949f;
+}
+#container .game_ll .rarity_S-CR .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_ll .rarity_S-CR .gr_color {
+  color: #cc6699;
+}
+#container .game_ll .rarity_S-CC .gr_bg {
+  background-color: #93949f;
+}
+#container .game_ll .rarity_S-CC .gr_color {
+  color: #93949f;
+}
+#container .game_ll .rarity_S-TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_ll .rarity_S-TD .gr_color {
+  color: #99cc33;
+}
+#container .game_ll .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_ll .rarity_PR .gr_color {
+  color: #9933ff;
+}
+
+#container .game_sentcg .rarity_CTR .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_sentcg .rarity_CTR .gr_color {
+  color: #6699cc;
+}
+#container .game_sentcg .rarity_TR .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_sentcg .rarity_TR .gr_color {
+  color: #6699cc;
+}
+#container .game_sentcg .rarity_PT .gr_bg {
+  background-color: #d6d6d6;
+}
+#container .game_sentcg .rarity_PT .gr_color {
+  color: #d6d6d6;
+}
+#container .game_sentcg .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_sentcg .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_sentcg .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_sentcg .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_sentcg .rarity_U .gr_bg {
+  background-color: #494949;
+}
+#container .game_sentcg .rarity_U .gr_color {
+  color: #494949;
+}
+#container .game_sentcg .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_sentcg .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_sentcg .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_sentcg .rarity_PR .gr_color {
+  color: #9933ff;
+}
+#container .game_sentcg .rarity_P-SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_sentcg .rarity_P-SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_sentcg .rarity_P-R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_sentcg .rarity_P-R .gr_color {
+  color: #cc6699;
+}
+#container .game_sentcg .rarity_P-U .gr_bg {
+  background-color: #494949;
+}
+#container .game_sentcg .rarity_P-U .gr_color {
+  color: #494949;
+}
+#container .game_sentcg .rarity_P-C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_sentcg .rarity_P-C .gr_color {
+  color: #93949f;
+}
+
+
+#container .game_gucb .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_gucb .rarity_SP .gr_color {
+  color: #6699cc;
+}
+#container .game_gucb .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_gucb .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_gucb .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_gucb .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_gucb .rarity_UC .gr_bg {
+  background-color: #494949;
+}
+#container .game_gucb .rarity_UC .gr_color {
+  color: #494949;
+}
+#container .game_gucb .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_gucb .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_gucb .rarity_N-SR .gr_bg {
+	background-color:#ff9a00;
+}
+#container .game_gucb .rarity_N-SR .gr_color {
+	color: #ff9a00;
+}
+#container .game_gucb .rarity_SR .gr_bg {
+	background-color:#ff9a00;
+}
+#container .game_gucb .rarity_SR .gr_color {
+	color: #ff9a00;
+}
+#container .game_gucb .rarity_N-R .gr_bg {
+	background-color:#cc6699;
+}
+#container .game_gucb .rarity_N-R .gr_color {
+	color: #cc6699;
+}
+#container .game_gucb .rarity_R .gr_bg {
+	background-color:#cc6699;
+}
+#container .game_gucb .rarity_R .gr_color {
+	color: #cc6699;
+}
+#container .game_gucb .rarity_N-UC .gr_bg {
+	background-color:#494949;
+}
+#container .game_gucb .rarity_N-UC .gr_color {
+	color: #494949;
+}
+#container .game_gucb .rarity_UC .gr_bg {
+	background-color:#494949;
+}
+#container .game_gucb .rarity_UC .gr_color {
+	color: #494949;
+}
+#container .game_gucb .rarity_N-C .gr_bg {
+	background-color:#93949f;
+}
+#container .game_gucb .rarity_N-C .gr_color {
+	color: #93949f;
+}
+#container .game_gucb .rarity_C .gr_bg {
+	background-color:#93949f;
+}
+#container .game_gucb .rarity_C .gr_color {
+	color: #93949f;
+}
+#container .game_gucb .rarity_P-R .gr_bg {
+	background-color:#cc6699;
+}
+#container .game_gucb .rarity_P-R .gr_color {
+	color: #cc6699;
+}
+#container .game_gucb .rarity_P-C .gr_bg {
+	background-color:#93949f;
+}
+#container .game_gucb .rarity_P-C .gr_color {
+	color: #93949f;
+}
+
+
+#container .game_ma .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_ma .rarity_SP .gr_color {
+  color: #6699cc;
+}
+#container .game_ma .rarity_SR .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_ma .rarity_SR .gr_color {
+  color: #ff9a00;
+}
+#container .game_ma .rarity_R .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_ma .rarity_R .gr_color {
+  color: #cc6699;
+}
+#container .game_ma .rarity_UC .gr_bg {
+  background-color: #494949;
+}
+#container .game_ma .rarity_UC .gr_color {
+  color: #494949;
+}
+#container .game_ma .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_ma .rarity_C .gr_color {
+  color: #93949f;
+}
+
+
+
+#container .game_gbf .rarity_SP .gr_bg {
+  background-color: #6699cc;
+}
+#container .game_gbf .rarity_SP .gr_color {
+  color: #6699cc;
+}
+#container .game_gbf .rarity_GP .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_gbf .rarity_GP .gr_color {
+  color: #ff9a00;
+}
+#container .game_gbf .rarity_G .gr_bg {
+  background-color: #ff9a00;
+}
+#container .game_gbf .rarity_G .gr_color {
+  color: #ff9a00;
+}
+#container .game_gbf .rarity_M .gr_bg {
+  background-color: #cc6699;
+}
+#container .game_gbf .rarity_M .gr_color {
+  color: #cc6699;
+}
+#container .game_gbf .rarity_UC .gr_bg {
+  background-color: #494949;
+}
+#container .game_gbf .rarity_UC .gr_color {
+  color: #494949;
+}
+#container .game_gbf .rarity_C .gr_bg {
+  background-color: #93949f;
+}
+#container .game_gbf .rarity_C .gr_color {
+  color: #93949f;
+}
+#container .game_gbf .rarity_TD .gr_bg {
+  background-color: #99cc33;
+}
+#container .game_gbf .rarity_TD .gr_color {
+  color: #99cc33;
+}
+#container .game_gbf .rarity_PR .gr_bg {
+  background-color: #9933ff;
+}
+#container .game_gbf .rarity_PR .gr_color {
+  color: #9933ff;
+}
+/* //fujii add */
+
+#container .game_sanac .rarity_SR .gr_bg {
+  background-color: #FFA500;
+}
+#container .game_sanac .rarity_SR .gr_color {
+  color: #FFA500;
+}
+#container .game_sanac .rarity_R .gr_bg {
+  background-color: #A9A9A9;
+}
+#container .game_sanac .rarity_R .gr_color {
+  color: #A9A9A9;
+}
+#container .game_sanac .rarity_UC .gr_bg {
+  background-color: #000000;
+}
+#container .game_sanac .rarity_UC .gr_color {
+  color: #000000;
+}
+#container .game_sanac .rarity_C .gr_bg {
+  background-color: #000000;
+}
+#container .game_sanac .rarity_C .gr_color {
+  color: #000000;
+}
+#container .game_sanac .family_gi{
+	color:#FF0000;
+}
+#container .game_sanac .family_go{
+	color:#0000FF;
+}
+#container .game_sanac .family_syoku{
+	color:#008000;
+}
+#container .game_sanac .family_gun{
+	color:#A9A9A9;
+}
+
+#container .game_lo .rarity_SP .gr_bg {
+	background-color:#6699cc;
+}
+#container .game_lo .rarity_SP .gr_color {
+	color: #6699cc;
+}
+#container .game_lo .rarity_SR .gr_bg {
+	background-color:#ff9a00;
+}
+#container .game_lo .rarity_SR .gr_color {
+	color: #ff9a00;
+}
+#container .game_lo .rarity_KR .gr_bg {
+	background-color:#00cc66;
+}
+#container .game_lo .rarity_KR .gr_color {
+	color: #00cc66;
+}
+#container .game_lo .rarity_R .gr_bg {
+	background-color:#cc6699;
+}
+#container .game_lo .rarity_R .gr_color {
+	color: #cc6699;
+}
+#container .game_lo .rarity_U .gr_bg {
+	background-color:#494949;
+}
+#container .game_lo .rarity_U .gr_color {
+	color: #494949;
+}
+#container .game_lo .rarity_C .gr_bg {
+	background-color:#93949f;
+}
+#container .game_lo .rarity_C .gr_color {
+	color: #93949f;
+}
+#container .game_lo .rarity_ST .gr_bg {
+	background-color:#99cc33;
+}
+#container .game_lo .rarity_ST .gr_color {
+	color: #99cc33;
+}
+#container .game_lo .rarity_P .gr_bg {
+	background-color:#9933ff;
+}
+#container .game_lo .rarity_P .gr_color {
+	color: #9933ff;
+}
+#container .game_dm .rarity_SE .gr_bg {
+	background-color:#6699cc;
+}
+#container .game_dm .rarity_SE .gr_color {
+	color: #6699cc;
+}
+#container .game_dm .rarity_FFL .gr_bg {
+	background-color:#6699cc;
+}
+#container .game_dm .rarity_FFL .gr_color {
+	color: #6699cc;
+}
+#container .game_dm .rarity_FL .gr_bg {
+	background-color:#6699cc;
+}
+#container .game_dm .rarity_FL .gr_color {
+	color: #6699cc;
+}
+#container .game_dm .rarity_L .gr_bg {
+	background-color:#ff9a00;
+}
+#container .game_dm .rarity_L .gr_color {
+	color: #ff9a00;
+}
+#container .game_dm .rarity_VV .gr_bg {
+	background-color:#ff9a00;
+}
+#container .game_dm .rarity_VV .gr_color {
+	color: #ff9a00;
+}
+#container .game_dm .rarity_V .gr_bg {
+	background-color:#ff9a00;
+}
+#container .game_dm .rarity_V .gr_color {
+	color: #ff9a00;
+}
+#container .game_dm .rarity_SR .gr_bg {
+	background-color:#ff9a00;
+}
+#container .game_dm .rarity_SR .gr_color {
+	color: #ff9a00;
+}
+#container .game_dm .rarity_VR .gr_bg {
+	background-color:#ff6633;
+}
+#container .game_dm .rarity_VR .gr_color {
+	color: #ff6633;
+}
+#container .game_dm .rarity_R .gr_bg {
+	background-color:#cc6699;
+}
+#container .game_dm .rarity_R .gr_color {
+	color: #cc6699;
+}
+#container .game_dm .rarity_R-foil .gr_bg {
+	background-color:#cc6699;
+}
+#container .game_dm .rarity_R-foil .gr_color {
+	color: #cc6699;
+}
+#container .game_dm .rarity_U .gr_bg {
+	background-color:#494949;
+}
+#container .game_dm .rarity_U .gr_color {
+	color: #494949;
+}
+#container .game_dm .rarity_U-foil .gr_bg {
+	background-color:#494949;
+}
+#container .game_dm .rarity_U-foil .gr_color {
+	color: #494949;
+}
+#container .game_dm .rarity_C .gr_bg {
+	background-color:#93949f;
+}
+#container .game_dm .rarity_C .gr_color {
+	color: #93949f;
+}
+#container .game_dm .rarity_C-foil .gr_bg {
+	background-color:#93949f;
+}
+#container .game_dm .rarity_C-foil .gr_color {
+	color: #93949f;
+}

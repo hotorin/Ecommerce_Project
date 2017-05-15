@@ -1,0 +1,1291 @@
+@charset "UTF-8";
+
+#main #INFORMATION {
+  margin: 20px 0;
+  font-size:14px;
+  line-height:1.6em;
+}
+
+/*============================================================
+　リンク 
+============================================================*/
+
+#main #INFORMATION a:link {
+	color:#0029a6;
+}
+
+#main #INFORMATION a:visited {
+	color:#0029a6;
+}
+
+#main #INFORMATION a:hover {
+	color:#0029a6;
+	text-decoration:none;
+}
+
+/*============================================================
+　ページ内リンク エリア 
+============================================================*/
+
+#main .info_message_block {
+  margin: 10px 0px 40px 0px;
+  padding: 20px 20px 10px;
+  border: 1px solid #b0b0b0;
+  box-shadow: inset 0 0 1px 2px #ffffff;
+}
+
+#main .info_message_block ul {
+  margin: 0px 0;
+  padding: 0px 0px 0px;
+  font-size:0px;
+}
+
+#main .info_message_block li {
+  display:inline-block;
+  font-size:14px;
+  margin-right:20px;
+  margin-bottom:10px;
+  background-image:url(../img/information/common/point01.png);
+  background-position:left;
+  background-repeat:no-repeat;
+  padding:2px 0px 0px 21px;
+}
+
+/*============================================================
+　フッター
+============================================================*/
+
+#main #INFORMATION .info_footer {
+	width: 923px;
+	height:70px;
+	font-weight:bold;
+	font-size:12px;
+	background-image:url('../img/information/common/footer.png');
+	background-position: bottom;
+	background-repeat:no-repeat;
+	padding:30px 0px 0px 0px;
+	margin-left: -11px;
+	margin-bottom:40px;
+}
+
+#main #INFORMATION .info_footer a {
+	padding:0px 0px 0px 60px;
+}
+
+/*============================================================
+　本文エリア 共通
+============================================================*/
+
+#main #INFORMATION .info_box {
+	width: 923px;
+	margin-left: -11px;
+	background-image: url(../img/information/common/wall.png) ;
+	background-position: center;
+	background-repeat:repeat-y;
+}
+
+/* タイトル */
+
+#main #INFORMATION .info_box h4 {
+	font-size:18px;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding:15px 40px 10px 40px;
+	margin-bottom:40px;
+	background-image:url(../img/information/common/header.png);
+	background-position: center top;
+	background-repeat:no-repeat;
+	height:49px;
+}
+
+/* 内容部 */
+
+#main #INFORMATION .info_box .info_contents {
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:1px;
+}
+
+#main #INFORMATION .info_box .info_contents .info_column {
+	padding-bottom:35px;
+}
+
+#main #INFORMATION .info_box .info_contents .info_txt {
+	font-size:16px;
+	line-height:1.6em;
+	margin:0px 95px 50px 95px;
+}
+
+#main #INFORMATION .info_box .info_contents .info_txt p {
+	margin-bottom:10px;
+}
+
+/* リンクボタン部 */
+
+#main #INFORMATION .info_box .link_box {
+  margin: -50px 50px 30px auto;
+  width:500px;
+  text-align:right;
+}
+
+#main #INFORMATION .info_box .link_box .link_btn { 
+    display: inline-block;
+    padding: 3px 35px 3px 24px;
+    margin: 18px 0;
+ 
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+	text-decoration: none;
+	
+    color: #FFFFFF;
+    background: #0033CB url(../img/information/common/ic_btnpoint.png) no-repeat;
+    border-radius: 3px;
+    background-position: right 15px center;
+
+	border: 1px solid #0029A6;
+}
+
+#main #INFORMATION .info_box .link_box .link_btn:hover { 
+    background-color: #4E7BDA; 
+	border: 1px solid #4E7BDA;
+}
+
+#main #INFORMATION .info_box .link_box .link_line {
+	margin:0px 0px 10px 0px;
+}
+
+/* 装飾 */
+
+#main #INFORMATION .info_box .info_contents h5 {
+	font-size:46px;
+	font-weight:bold;
+	line-height:1.5em;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	padding:0px 30px 0px 30px;
+	margin-bottom:60px;
+}
+
+#main #INFORMATION .info_box .info_contents h6 {
+	width:728px;
+	font-size:20px;
+	font-weight:bold;
+	color:#0029A5;
+	border-top:2px solid #8C9FD3;
+	border-bottom:2px solid #8C9FD3;
+	padding:16px 40px 16px 40px;
+	margin:0px auto 50px auto;
+}
+
+/* 注釈 */
+
+#main #INFORMATION .info_box .info_contents .notes {
+	font-size:10px;
+	color:#808080;
+	line-height:1.7em;
+}
+
+/* 強調 */
+
+#main #INFORMATION .info_box .info_contents strong em {
+	font-weight:bold;
+	color: #cf0003;
+	font-style:normal;
+}
+
+#main #INFORMATION .info_box .info_contents strong {
+	font-weight:bold;
+	color: #cf0003;
+}
+
+#main #INFORMATION .info_box .info_contents em {
+	color: #cf0003;
+	font-style:normal;
+}
+
+/* リスト */
+
+#main #INFORMATION .info_box .info_contents ul {
+	margin:0px 70px 50px 70px;
+}
+
+#main #INFORMATION .info_box .info_contents li {
+	font-size:16px;
+	font-weight:bold;
+	line-height:1.6em;
+	background-image:url(../img/information/common/ic_point2.png);
+	background-position:0px 1px;
+	background-repeat:no-repeat;
+	padding:0px 0px 0px 30px;
+	margin-bottom:50px;
+}
+
+/* リスト内リスト */
+
+#main #INFORMATION .info_box .info_contents .inlist {
+	margin:-35px 40px 50px 30px;
+}
+
+#main #INFORMATION .info_box .info_contents .inlist li {
+	position: relative;
+	margin-bottom:20px;
+	background-image:none;
+	font-size:14px;
+	line-height:1.6em;
+	font-weight:normal;
+}
+
+#main #INFORMATION .info_box .info_contents .inlist li::after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: .5em;
+	left:1em;
+	width: 8px;
+	height: 8px;
+	background-color: #000000;
+	border-radius: 100%;
+}
+
+/* 番号リスト */
+
+#main #INFORMATION .info_box .info_contents ol {
+	list-style: decimal;
+	background-image:none;
+	margin:0px 70px 50px 70px;
+}
+
+#main #INFORMATION .info_box .info_contents ol li {
+	font-size:16px;
+	font-weight:normal;
+	line-height:1.6em;
+	background-image:none;
+	padding:0px 0px 0px 0px;
+	margin-bottom:15px;
+}
+
+
+
+/* 画像番号リスト */
+
+#main #INFORMATION .info_box .info_contents .no_list {
+	list-style:none;
+	margin:-25px 40px 50px 40px;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list li {
+	margin-bottom:10px;
+	font-size:14px;
+	line-height:1.6em;
+	font-weight:normal;
+	background-size:14px 14px;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no0 {
+	background-image:url(../img/information/common/ic_0.png);
+	background-position:0px 3px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no1 {
+	background-image:url(../img/information/common/ic_1.png);
+	background-position:0px 4px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no2 {
+	background-image:url(../img/information/common/ic_2.png);
+	background-position:0px 3px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no3 {
+	background-image:url(../img/information/common/ic_3.png);
+	background-position:0px 3px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no4 {
+	background-image:url(../img/information/common/ic_4.png);
+	background-position:0px 4px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no5 {
+	background-image:url(../img/information/common/ic_5.png);
+	background-position:0px 3px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no6 {
+	background-image:url(../img/information/common/ic_6.png);
+	background-position:0px 3px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no7 {
+	background-image:url(../img/information/common/ic_7.png);
+	background-position:0px 3px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no8 {
+	background-image:url(../img/information/common/ic_8.png);
+	background-position:0px 3px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no9 {
+	background-image:url(../img/information/common/ic_9.png);
+	background-position:0px 4px;
+	background-repeat:no-repeat;
+}
+
+
+#main #INFORMATION .info_box .info_contents .no_list .no00 {
+	background-image:url(../img/information/common/ic_00.png);
+	background-position:0px 4px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no01 {
+	background-image:url(../img/information/common/ic_01.png);
+	background-position:0px 4px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no02 {
+	background-image:url(../img/information/common/ic_02.png);
+	background-position:0px 4px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no03 {
+	background-image:url(../img/information/common/ic_03.png);
+	background-position:0px 4px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no04 {
+	background-image:url(../img/information/common/ic_04.png);
+	background-position:0px 4px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no05 {
+	background-image:url(../img/information/common/ic_05.png);
+	background-position:0px 4px;
+	background-repeat:no-repeat;
+}
+
+
+#main #INFORMATION .info_box .info_contents .no_list .no06 {
+	background-image:url(../img/information/common/ic_06.png);
+	background-position:0px 4px;
+	background-repeat:no-repeat;
+}
+
+#main #INFORMATION .info_box .info_contents .no_list .no07 {
+	background-image:url(../img/information/common/ic_07.png);
+	background-position:0px 4px;
+	background-repeat:no-repeat;
+}
+
+
+/* イメージ表示用　大 */
+
+#main #INFORMATION .info_box .info_contents .img_box1 {
+	width:670px;
+	background-image:url(../img/information/common/img_header.png),url(../img/information/common/img_footer.png),url(../img/information/common/img_wall.png);
+	background-position:top left,bottom right,right;
+	background-repeat:no-repeat,no-repeat,repeat-y;
+	background-color:#ECF4F7;
+	text-align:center;
+	padding:30px 30px 30px 30px;
+	margin:0px auto 60px auto;
+}
+
+#main #INFORMATION .info_box .info_contents .img_box1 img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 2px 2px 2px 2px #CCC;
+	-webkit-box-shadow: 2px 2px 2px 2px #CCC;
+	box-shadow: 1px 1px 2px 2px #CCC;
+}
+
+div.img_large {
+    display: none;
+	z-index: 5;
+}
+
+div.img_large img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+div.img_large:target {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    background: url('../img/information/common/screen.png');
+    position: fixed;
+    padding: 2em;
+}
+
+/* イメージ表示用　横 */
+
+#main #INFORMATION .info_box .info_contents .img_box2 {
+	width:670px;
+	background-image:url(../img/information/common/img_header.png),url(../img/information/common/img_footer.png),url(../img/information/common/img_wall.png);
+	background-position:top left,bottom right,right;
+	background-repeat:no-repeat,no-repeat,repeat-y;
+	background-color:#ECF4F7;
+	padding:30px 30px 30px 30px;
+	margin:0px auto 50px auto;
+	display: table;
+}
+
+#main #INFORMATION .info_box .info_contents .img_box2 img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 2px 2px 2px 2px #CCC;
+	-webkit-box-shadow: 2px 2px 2px 2px #CCC;
+	box-shadow: 1px 1px 2px 2px #CCC;
+}
+
+#main #INFORMATION .info_box .info_contents .img_box2 .img_column {
+	display: table-cell;
+	vertical-align: top;
+	width:300px;
+}
+
+#main #INFORMATION .info_box .info_contents .img_box2 .txt_column {
+	display: table-cell;
+	text-align:left;
+	padding-left:25px;
+}
+
+#main #INFORMATION .info_box .info_contents .img_box2 .txt_column p {
+	margin-bottom:5px;
+}
+
+/* イメージ表示用　横 タイトル　*/
+
+#main #INFORMATION .info_box .info_contents .img_box2 .txt_column .img_title {
+	font-size:18px;
+	color:#0029A5;
+	font-weight:bold;
+	margin:0px 0px 0px 0px;
+}
+
+#main #INFORMATION .info_box .info_contents .img_box2 .txt_column .img_subtitle {
+	font-size:10px;
+	color:#6E7070;
+	margin:0px 0px 10px 0px;
+}
+
+
+/* イメージ表示用　横 リスト　*/
+
+#main #INFORMATION .info_box .info_contents .img_box2 .txt_column .imglist {
+	margin:0px 0px 5px 0px;
+}
+
+#main #INFORMATION .info_box .info_contents .img_box2 .txt_column .imglist li {
+	position: relative;
+	margin-bottom:3px;
+	padding-left:20px;
+	background-image:none;
+	font-size:14px;
+	line-height:1.6em;
+	font-weight:normal;
+}
+
+#main #INFORMATION .info_box .info_contents .img_box2 .txt_column .imglist li::after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: .5em;
+	left:.5em;
+	width: 6px;
+	height: 6px;
+	background-color: #00249A;
+	border-radius: 100%;
+}
+
+
+/* イメージ表示用　縦 */
+
+#main #INFORMATION .info_box .info_contents .img_box3area {
+	width:730px;
+	margin:0px auto 50px auto;
+	display: table;
+	border-collapse: separate;
+	border-spacing: 20px 0;
+}
+
+#main #INFORMATION .info_box .info_contents .img_box3 {
+	width:295px;
+	display: table-cell;
+	background-image:url(../img/information/common/img_header.png),url(../img/information/common/img_footer.png),url(../img/information/common/img_wall.png);
+	background-position:top left,bottom right,right;
+	background-repeat:no-repeat,no-repeat,repeat-y;
+	background-color:#ECF4F7;
+	padding:27px 27px 27px 27px;
+	margin:0px auto 50px auto;
+}
+
+
+#main #INFORMATION .info_box .info_contents .img_box3 .img_column img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 2px 2px 2px 2px #CCC;
+	-webkit-box-shadow: 2px 2px 2px 2px #CCC;
+	box-shadow: 1px 1px 2px 2px #CCC;
+}
+
+#main #INFORMATION .info_box .info_contents .img_box3 .img_column {
+	margin-bottom:20px;
+	text-align:center;
+}
+
+
+#main #INFORMATION .info_box .info_contents .img_box3 .txt_column {
+	text-align:left;
+}
+
+#main #INFORMATION .info_box .info_contents .img_box3 .txt_column p {
+	margin-bottom:5px;
+}
+
+/* イメージ表示用　横 タイトル　*/
+
+#main #INFORMATION .info_box .info_contents .img_box3 .txt_column .img_title {
+	font-size:18px;
+	color:#0029A5;
+	font-weight:bold;
+	margin:0px 0px 0px 0px;
+}
+
+#main #INFORMATION .info_box .info_contents .img_box3 .txt_column .img_subtitle {
+	font-size:10px;
+	color:#6E7070;
+	margin:0px 0px 10px 0px;
+}
+
+
+/*============================================================
+　規約
+============================================================*/
+
+#main #INFORMATION .info_box .info_contents .info_rule {
+	margin-bottom:50px;
+}
+
+#main #INFORMATION .info_box .info_contents .info_rule .info_txt {
+	line-height:1.6em;
+	padding:0px 0px 0px 0px;
+	margin:0px 50px 15px 50px;
+}
+
+#main #INFORMATION .info_box .info_contents .act {
+	width:740px;
+	border-collapse: collapse;
+	border-top:1px solid #888888;
+	border-left:1px solid #888888;
+	margin:0px auto 30px auto;
+}
+
+#main #INFORMATION .info_box .info_contents .act th {
+	width:150px;
+	font-weight:bold;
+	text-align:left;
+	background-color:#ECF4F7;
+	border-right:1px solid #888888;
+	border-bottom:1px solid #888888;
+	padding:10px;
+}
+
+#main #INFORMATION .info_box .info_contents .act td {
+	border-right:1px solid #888888;
+	border-bottom:1px solid #888888;
+	padding:10px;
+}
+
+/*============================================================
+　その他カード価格
+============================================================*/
+
+#main #INFORMATION .info_box .info_contents .excard {
+	width:740px;
+	border-collapse: collapse;
+	border-top:1px solid #888888;
+	border-left:1px solid #888888;
+	margin:0px auto 50px auto;
+}
+
+#main #INFORMATION .info_box .info_contents .excard th {
+	font-weight:bold;
+	text-align:center;
+	background-color:#21489C;
+	color:#FFFFFF;
+	border-right:1px solid #888888;
+	border-bottom:1px solid #888888;
+	padding:10px;
+}
+
+#main #INFORMATION .info_box .info_contents .excard td {
+	width:25%;
+	text-align:center;
+	border-right:1px solid #888888;
+	border-bottom:1px solid #888888;
+	padding:10px;
+}
+
+#main #INFORMATION .info_box .info_contents .excard .ver {
+	background-color:#ECF4F7;
+	text-align:center;
+	border-right:1px solid #888888;
+	border-bottom:1px solid #888888;
+	padding:10px;
+}
+
+/*============================================================
+　やり方
+============================================================*/
+
+#main #INFORMATION .info_box .info_contents .downarrow01 {
+	text-align:center;
+	margin-bottom:50px;
+}
+
+/*============================================================
+　流れ
+============================================================*/
+
+#main #INFORMATION .info_box .info_contents .img_box2 .txt_column .img_guest {
+	font-size:14px;
+	color:#00249A;
+	font-weight:bold;
+	text-align:right;
+	margin:0px 0px 10px 0px;
+}
+
+#main #INFORMATION .info_box .info_contents .img_box2 .txt_column .img_shop {
+	font-size:14px;
+	color:#005E13;
+	font-weight:bold;
+	text-align:right;
+	margin:0px 0px 10px 0px;
+}
+
+
+
+
+#main #INFORMATION .info_box .info_contents .flowtitle_box {
+	display:table;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:16px;
+	width:730px;
+	margin:0px auto 0px auto;
+}
+
+#main #INFORMATION .info_box .info_contents .flowtitle_box .flow_step {
+	display:table-cell;
+	width:550px;
+	padding:7px 10px 0px 10px;
+}
+
+#main #INFORMATION .info_box .info_contents .flowtitle_box .flow_side {
+	display:table-cell;
+	text-align:right;
+	padding:7px 20px 0px 10px;
+}
+
+#main #INFORMATION .info_box .info_contents .flow_box {
+	display:table;
+	width:720px;
+	margin:0px auto 30px auto;
+}
+
+#main #INFORMATION .info_box .info_contents .flow_box .img_box {
+	display:table-cell;
+	width:250px;
+	padding:10px 10px 10px 10px;
+}
+
+#main #INFORMATION .info_box .info_contents .flow_box .txt_box {
+	display:table-cell;
+	vertical-align: top;
+	padding:10px 10px 10px 10px;
+}
+
+#main #INFORMATION .info_box .info_contents .flowtitle_box.guest {
+	background-color:#00249A;
+}
+
+#main #INFORMATION .info_box .info_contents .flow_box.guest {
+	border:5px solid #00249A;
+}
+
+#main #INFORMATION .info_box .info_contents .flowtitle_box.shop {
+	background-color: #005E13;
+}
+
+#main #INFORMATION .info_box .info_contents .flow_box.shop {
+	border:5px solid #005E13;
+}
+
+
+/*============================================================
+　買取商品の返送
+============================================================*/
+
+
+#main #INFORMATION .info_box .info_contents .return {
+	width:550px;
+	border-collapse: collapse;
+	border-top:1px solid #888888;
+	border-left:1px solid #888888;
+	margin:-30px auto 50px auto;
+}
+
+#main #INFORMATION .info_box .info_contents .return th {
+	width:200px;
+	font-weight:bold;
+	background-color:#21489C;
+	color:#FFFFFF;
+	border-right:1px solid #888888;
+	border-bottom:1px solid #888888;
+	padding:10px;
+}
+
+#main #INFORMATION .info_box .info_contents .return td {
+	width:200px;
+	border-right:1px solid #888888;
+	border-bottom:1px solid #888888;
+	padding:10px;
+}
+
+#main #INFORMATION .info_box .info_contents .return .ver {
+	width:150px;
+	background-color:#ECF4F7;
+	text-align:center;
+	border-right:1px solid #888888;
+	border-bottom:1px solid #888888;
+	padding:10px;
+}
+
+
+/*============================================================
+　よくある質問
+============================================================*/
+
+#main #INFORMATION .info_box .info_contents .info_faq {
+
+}
+
+#main #INFORMATION .info_box .info_contents .info_faq dl {
+	margin:0px 70px 50px 70px;
+}
+
+#main #INFORMATION .info_box .info_contents .info_faq dt.question {
+	font-size:16px;
+	line-height:1.6em;
+	background-image:url(../img/information/common/ic_point2.png);
+	background-position:0px 1px;
+	background-repeat:no-repeat;
+	padding:0px 0px 0px 30px;
+	margin-bottom:10px;
+	cursor: pointer;
+}
+#main #INFORMATION .info_box .info_contents .info_faq dt.question:hover {
+	text-decoration: underline;
+}
+#main #INFORMATION .info_box .info_contents .info_faq dd.answer {
+	display: none;
+	background-image:url(../img/information/common/img_wall.png);
+	background-position:right;
+	background-repeat:repeat-y;
+	background-color:#ECF4F7;
+	padding: 25px 30px 15px 30px;
+	margin-left: 1em;
+	margin-bottom:20px;
+}
+
+#main #INFORMATION .info_box .info_contents .info_faq dl p {
+	margin:0px 0px 10px 0px;
+}
+
+
+/* リンクボタン部 */
+
+#main #INFORMATION .info_box .info_contents .info_faq .link_box {
+  margin: 10px 0px 0px auto;
+  width:500px;
+  text-align:right;
+}
+
+#main #INFORMATION .info_box .info_contents .info_faq .link_btn { 
+    display: inline-block;
+    padding: 3px 35px 3px 24px;
+    margin: 0px;
+ 
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+	text-decoration: none;
+	
+    color: #FFFFFF;
+    background: #0033CB url(../img/information/common/ic_btnpoint.png) no-repeat;
+    border-radius: 3px;
+    background-position: right 15px center;
+
+	border: 1px solid #0029A6;
+}
+
+#main #INFORMATION .info_box .info_contents .info_faq .link_btn:hover { 
+    background-color: #4E7BDA; 
+	border: 1px solid #4E7BDA;
+}
+
+#main #INFORMATION .info_box .info_contents .info_faq .link_line {
+	margin:0px 0px 10px 0px;
+}
+
+/* 画像番号リスト */
+
+#main #INFORMATION .info_box .info_contents .info_faq .no_list {
+	list-style:none;
+	margin:0px 20px 10px 20px;
+}
+
+#main #INFORMATION .info_box .info_contents .info_faq .no_list li {
+	margin-bottom:1px;
+	font-size:14px;
+	line-height:1.6em;
+	font-weight:normal;
+	background-size:14px 14px;
+}
+
+
+
+/*============================================================
+　サイドメニュー
+============================================================*/
+
+
+
+#sideDUMMY {
+  float: left;
+  width: 279px;
+}
+
+#side_info_info {
+}
+
+#side_info .logo {
+  margin-left: -15px;
+}
+
+#side_info .sidebar {
+  overflow: visible;
+  position: relative;
+  margin-left: -18px;
+  padding: 0 45px 0 21px;
+  background: url('../img/shop/side/bg_middle.png') repeat-y;
+}
+
+#side_info .sidebar:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+  width: 275px;
+  height: 27px;
+  background: url('../img/shop/side/bg_bottom.png');
+}
+
+/*
+#side_info .sidebar.sell:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+  width: 275px;
+  height: 27px;
+  background: url('../img/information/bg_bottom_sell.png');
+}
+
+#side_info .sidebar.buy:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+  width: 275px;
+  height: 27px;
+  background: url('../img/information/bg_bottom_buy.png');
+}
+
+#side_info .sidebar.play:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+  width: 275px;
+  height: 27px;
+  background: url('../img/information/bg_bottom_play.png');
+}
+
+#side_info .sidebar.yuyutei:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+  width: 275px;
+  height: 27px;
+  background: url('../img/information/bg_bottom_yuyutei.png');
+}
+*/
+
+
+#side_info .sidebar .banner {
+  position: relative;
+  margin: 0 0 18px;
+  text-align: center;
+}
+
+#side_info .sidebar .nav_box {
+  position: relative;
+  padding-top: 43px;
+  background: no-repeat;
+}
+
+
+#side_info .sidebar .nav_box, #side_info .sidebar .nav_box[data-current="yuyutei"] {
+  background-image: url('../img/information/tab_yuyutei.png');
+}
+
+#side_info .sidebar .nav_box[data-current="yuyutei"] .nav_list[data-class="yuyutei"] {
+  display: block;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="sell"], #side_info .sidebar .nav_box .nav_list[data-class="buy"], #side_info .sidebar .nav_box .nav_list[data-class="play"], #side_info .sidebar .nav_box[data-current="yuyutei"] .nav_list[data-class="sell"], 
+#side_info .sidebar .nav_box[data-current="yuyutei"] .nav_list[data-class="buy"], #side_info .sidebar .nav_box[data-current="yuyutei"] .nav_list[data-class="play"] {
+  display: none;
+}
+
+
+#side_info .sidebar .nav_box[data-current="sell"] {
+  background-image: url('../img/information/tab_sell.png');
+}
+
+#side_info .sidebar .nav_box[data-current="sell"] .nav_list[data-class="sell"] {
+  display: block;
+}
+
+#side_info .sidebar .nav_box[data-current="sell"] .nav_list[data-class="buy"], #side_info .sidebar .nav_box[data-current="sell"] .nav_list[data-class="play"], #side_info .sidebar .nav_box[data-current="sell"] .nav_list[data-class="yuyutei"] {
+  display: none;
+}
+
+
+#side_info .sidebar .nav_box[data-current="buy"] {
+  background-image: url('../img/information/tab_buy.png');
+}
+
+#side_info .sidebar .nav_box[data-current="buy"] .nav_list[data-class="buy"] {
+  display: block;
+}
+
+#side_info .sidebar .nav_box[data-current="buy"] .nav_list[data-class="sell"], #side_info .sidebar .nav_box[data-current="buy"] .nav_list[data-class="play"], #side_info .sidebar .nav_box[data-current="buy"] .nav_list[data-class="yuyutei"] {
+  display: none;
+}
+
+
+#side_info .sidebar .nav_box[data-current="play"] {
+  background-image: url('../img/information/tab_play.png');
+}
+
+#side_info .sidebar .nav_box[data-current="play"] .nav_list[data-class="play"] {
+  display: block;
+}
+
+#side_info .sidebar .nav_box[data-current="play"] .nav_list[data-class="sell"], #side_info .sidebar .nav_box[data-current="play"] .nav_list[data-class="buy"], #side_info .sidebar .nav_box[data-current="play"] .nav_list[data-class="yuyutei"] {
+  display: none;
+}
+
+
+#side_info .sidebar .nav_box .label {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  height: 41px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+#side_info .sidebar .nav_box .label[data-class="yuyutei"] {
+  left: 1px;
+  width: 55px;
+}
+
+#side_info .sidebar .nav_box .label[data-class="sell"] {
+  left: 56px;
+  width: 55px;
+}
+
+#side_info .sidebar .nav_box .label[data-class="buy"] {
+  left: 111px;
+  width: 55px;
+}
+
+#side_info .sidebar .nav_box .label[data-class="play"] {
+  left: 166px;
+  width: 60px;
+}
+
+
+/* YUYUTEI */
+
+#side_info .sidebar .nav_box .nav_list[data-class="yuyutei"] a {
+  color: #FFFFFF;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="yuyutei"] .selected > a {
+  color: #FFFFFF;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="yuyutei"] {
+  background-color:#00407B;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="yuyutei"] .selected > a:after {
+  background-image: url('../img/information/icon_arrow_selected.png');
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="yuyutei"] .selected > a.parent:after {
+  background-image: url('../img/information/icon_arrow_parent_yuyutei.png');
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="yuyutei"] .nav_list_second .selected > a.parent:before {
+  background-image: url('../img/shop/side/icon_bar_parent_sell.png');
+  background-position: 18px 2px;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="yuyutei"] .nav_list_second {
+  background-color: #8DA0C5;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="yuyutei"] .nav_list_second .selected > a[href] {
+  color: #ffffff;
+  background-color: #00407B;
+}
+#side_info .sidebar .nav_box .nav_list[data-class="yuyutei"] .nav_list_second .selected > a[href]:after {
+  background-image: url('../img/shop/side/icon_arrow_selected.png');
+}
+
+/* SELL */
+
+#side_info .sidebar .nav_box .nav_list[data-class="sell"] a {
+  color: #FFFFFF;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="sell"] .selected > a {
+  color: #FFFFFF;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="sell"] {
+  background-color:#CE0D3D;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="sell"] .selected > a:after {
+  background-image: url('../img/information/icon_arrow_selected.png');
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="sell"] .selected > a.parent:after {
+  background-image: url('../img/information/icon_arrow_parent_sell.png');
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="sell"] .nav_list_second .selected > a.parent:before {
+  background-image: url('../img/shop/side/icon_bar_parent_sell.png');
+  background-position: 18px 2px;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="sell"] .nav_list_second {
+  background-color: #E7948D;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="sell"] .nav_list_second .selected > a[href] {
+  color: #ffffff;
+  background-color: #CE0D3D;
+}
+#side_info .sidebar .nav_box .nav_list[data-class="sell"] .nav_list_second .selected > a[href]:after {
+  background-image: url('../img/shop/side/icon_arrow_selected.png');
+}
+
+/* BUY */
+
+#side_info .sidebar .nav_box .nav_list[data-class="buy"] a {
+  color: #FFFFFF;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="buy"] .selected > a {
+  color: #FFFFFF;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="buy"] {
+  background-color:#0055A2;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="buy"] .selected > a:after {
+  background-image: url('../img/information/icon_arrow_selected.png');
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="buy"] .selected > a.parent:after {
+  background-image: url('../img/information/icon_arrow_parent_buy.png');
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="buy"] .nav_list_second .selected > a.parent:before {
+  background-image: url('../img/shop/side/icon_bar_parent_buy.png');
+  background-position: 18px 2px;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="buy"] .nav_list_second {
+  background-color: #8DA4D3;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="buy"] .nav_list_second .selected > a[href] {
+  color: #ffffff;
+  background-color: #0055A2;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="buy"] .nav_list_second .selected > a[href]:after {
+  background-image: url('../img/shop/side/icon_arrow_selected.png');
+}
+
+/* PLAY */
+
+#side_info .sidebar .nav_box .nav_list[data-class="play"] a {
+  color: #FFFFFF;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="play"] .selected > a {
+  color: #FFFFFF;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="play"] {
+  background-color:#008E64;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="play"] .selected > a:after {
+  background-image: url('../img/information/icon_arrow_selected.png');
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="play"] .selected > a.parent:after {
+  background-image: url('../img/information/icon_arrow_parent_play.png');
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="play"] .nav_list_second .selected > a.parent:before {
+  background-image: url('../img/shop/side/icon_bar_parent_play.png');
+  background-position: 18px 2px;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="play"] .nav_list_second {
+  background-color: #85C0A6;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="play"] .nav_list_second .selected > a[href] {
+  color: #ffffff;
+  background-color: #008E64;
+}
+
+#side_info .sidebar .nav_box .nav_list[data-class="play"] .nav_list_second .selected > a[href]:after {
+  background-image: url('../img/shop/side/icon_arrow_selected.png');
+}
+
+
+
+
+
+#side_info .sidebar .nav_box .nav_list a {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  padding: 12px 40px 12px 20px;
+  border-top: 1px solid #FFFFFF;
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#side_info .sidebar .nav_box .nav_list .nav_list_third a {
+  padding-left: 50px;
+}
+
+#side_info .sidebar .nav_box .nav_list a:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  width: 26px;
+  height: 26px;
+  background: no-repeat 50% 50%;
+}
+
+#side_info .sidebar .nav_box .nav_list a:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  width: 13px;
+  height: 13px;
+  background: url('../img/information/icon_arrow.png') no-repeat 50% 50%;
+}
+
+#side_info .sidebar .nav_box .nav_list > li > a {
+  font-size: 14px;
+}
+
+#side_info .sidebar .nav_box .nav_list > li:first-child > a:first-child {
+  border-top: 0;
+}
+
+#side_info .sidebar .nav_box .nav_list_second, #side_info .sidebar .nav_box .nav_list_third {
+  display: none;
+  background-image: url('../img/shop/side/bg_shadow_bottom.png');
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+
+#side_info .sidebar .nav_box .nav_list_second > li:first-child, #side_info .sidebar .nav_box .nav_list_third > li:first-child {
+  background-image: url('../img/shop/side/bg_shadow_top.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
+#side_info .sidebar .nav_box .nav_list_third:last-child {
+  background-image: none;
+}
+
+#side_info .sidebar .nav_box li.selected > .nav_list_second,
+#side_info .sidebar .nav_box li.selected > .nav_list_third {
+  display: block;
+}
+
+
+

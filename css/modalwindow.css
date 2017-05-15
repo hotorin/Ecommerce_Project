@@ -1,0 +1,224 @@
+/* CSS Document */
+.modalBanner {
+  cursor: pointer; }
+
+.modalWindow .blackMask, .modalWindow .floatingBox {
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px; }
+.modalWindow .blackMask {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  z-index: 8999; }
+.modalWindow .floatingBox {
+  width: 1180px;
+  height: 665px;
+  left: -webkit-calc((100% - 1180px) / 2);
+  left: calc((100% - 1180px) / 2);
+  top: -webkit-calc((100% - 665px) / 2);
+  top: calc((100% - 665px) / 2);
+  z-index: 9000;
+  background-color: #FFF;
+  /*
+  .button:hover {
+  	background-position: left bottom;
+  }
+  */ }
+  .modalWindow .floatingBox .boxBack {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1180px;
+    height: 665px;
+    background-image: url(../img/modal/mdback.png);
+    background-repeat: no-repeat; }
+  .modalWindow .floatingBox h1, .modalWindow .floatingBox h2, .modalWindow .floatingBox h3, .modalWindow .floatingBox .button, .modalWindow .floatingBox .buttonSelect, .modalWindow .floatingBox .joinButton {
+    position: absolute;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    background-repeat: no-repeat; }
+  .modalWindow .floatingBox h1 {
+    width: 698px;
+    height: 74px;
+    left: 242px;
+    top: 33px;
+    background-image: url(../img/modal/mdtitle.png); }
+  .modalWindow .floatingBox #mdsection00 h2 {
+    width: 188px;
+    height: 22px;
+    left: 166px;
+    top: 192px;
+    background-image: url(../img/modal/mdhl01.png); }
+  .modalWindow .floatingBox #mdsection00 .forall {
+    width: 291px;
+    height: 11px;
+    left: 88px;
+    top: 262px;
+    background-image: url(../img/modal/mdall01.png); }
+  .modalWindow .floatingBox #mdsection00 .member {
+    width: 291px;
+    height: 11px;
+    left: 87px;
+    top: 457px;
+    background-image: url(../img/modal/mdmember01.png); }
+  .modalWindow .floatingBox #mdsection01 h2 {
+    width: 217px;
+    height: 21px;
+    left: 526px;
+    top: 193px;
+    background-image: url(../img/modal/mdhl02.png); }
+  .modalWindow .floatingBox #mdsection01 .forall {
+    width: 291px;
+    height: 11px;
+    left: 448px;
+    top: 262px;
+    background-image: url(../img/modal/mdall02.png); }
+  .modalWindow .floatingBox #mdsection01 .member {
+    width: 291px;
+    height: 11px;
+    left: 447px;
+    top: 365px;
+    background-image: url(../img/modal/mdmember02.png); }
+  .modalWindow .floatingBox #mdsection02 h2 {
+    width: 210px;
+    height: 23px;
+    left: 886px;
+    top: 191px;
+    background-image: url(../img/modal/mdhl03.png); }
+  .modalWindow .floatingBox #mdsection02 .member {
+    width: 291px;
+    height: 11px;
+    left: 807px;
+    top: 262px;
+    background-image: url(../img/modal/mdmember03.png); }
+  .modalWindow .floatingBox .button {
+    cursor: pointer;
+    background-position: left top; }
+  .modalWindow .floatingBox .buttonSelect {
+    cursor: pointer;
+    background-position: left bottom; }
+  .modalWindow .floatingBox #mdbt0_0 {
+    width: 257px;
+    height: 22px;
+    left: 94px;
+    top: 300px;
+    background-image: url(../img/modal/mdbts0_0.png); }
+  .modalWindow .floatingBox #mdbt0_1 {
+    width: 257px;
+    height: 22px;
+    left: 94px;
+    top: 341px;
+    background-image: url(../img/modal/mdbts0_1.png); }
+  .modalWindow .floatingBox #mdbt0_2 {
+    width: 257px;
+    height: 41px;
+    left: 94px;
+    top: 383px;
+    background-image: url(../img/modal/mdbts0_2.png); }
+  .modalWindow .floatingBox #mdbt0_3 {
+    width: 257px;
+    height: 43px;
+    left: 94px;
+    top: 486px;
+    background-image: url(../img/modal/mdbts0_3.png); }
+  .modalWindow .floatingBox #mdbt1_0 {
+    width: 282px;
+    height: 22px;
+    left: 454px;
+    top: 300px;
+    background-image: url(../img/modal/mdbts1_0.png); }
+  .modalWindow .floatingBox #mdbt1_1 {
+    width: 282px;
+    height: 42px;
+    left: 454px;
+    top: 403px;
+    background-image: url(../img/modal/mdbts1_1.png); }
+  .modalWindow .floatingBox #mdbt1_2 {
+    width: 282px;
+    height: 42px;
+    left: 454px;
+    top: 473px;
+    background-image: url(../img/modal/mdbts1_2.png); }
+  .modalWindow .floatingBox #mdbt2_0 {
+    width: 270px;
+    height: 42px;
+    left: 814px;
+    top: 303px;
+    background-image: url(../img/modal/mdbts2_0.png); }
+  .modalWindow .floatingBox #mdbt2_1 {
+    width: 270px;
+    height: 42px;
+    left: 814px;
+    top: 378px;
+    background-image: url(../img/modal/mdbts2_1.png); }
+  .modalWindow .floatingBox .joinButton {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    background-position: left top;
+    width: 1079px;
+    height: 82px;
+    left: 50px;
+    top: 560px;
+    background-image: url(../img/modal/mdjoin.png); }
+  .modalWindow .floatingBox .joinButton:hover {
+    cursor: pointer;
+    background-position: left bottom; }
+  .modalWindow .floatingBox .modalMessage0, .modalWindow .floatingBox .modalMessage1, .modalWindow .floatingBox .modalMessage2 {
+    position: absolute;
+    display: none;
+    text-align: left;
+    background-repeat: no-repeat;
+    width: 334px;
+    height: 191px;
+    z-index: 9001;
+    padding: 30px;
+    pointer-events: none; }
+  .modalWindow .floatingBox .modalMessage0 {
+    background-image: url(../img/modal/mdwindow01.png); }
+  .modalWindow .floatingBox .modalMessage1 {
+    background-image: url(../img/modal/mdwindow02.png); }
+  .modalWindow .floatingBox .modalMessage2 {
+    background-image: url(../img/modal/mdwindow03.png); }
+  .modalWindow .floatingBox #modalMessage0_0 {
+    left: 313px;
+    top: 125px; }
+  .modalWindow .floatingBox #modalMessage0_1 {
+    left: 352px;
+    top: 167px; }
+  .modalWindow .floatingBox #modalMessage0_2 {
+    left: 320px;
+    top: 231px; }
+  .modalWindow .floatingBox #modalMessage0_3 {
+    left: 294px;
+    top: 337px; }
+  .modalWindow .floatingBox #modalMessage1_0 {
+    left: 736px;
+    top: 126px; }
+  .modalWindow .floatingBox #modalMessage1_1 {
+    left: 693px;
+    top: 253px; }
+  .modalWindow .floatingBox #modalMessage1_2 {
+    left: 697px;
+    top: 322px; }
+  .modalWindow .floatingBox #modalMessage2_0 {
+    left: 514px;
+    top: 151px; }
+  .modalWindow .floatingBox #modalMessage2_1 {
+    left: 514px;
+    top: 225px; }
+  .modalWindow .floatingBox .floatingBoxCloseBt {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1099px;
+    top: 20px;
+    background-image: url(../img/modal/mdsclose.png);
+    background-repeat: no-repeat;
+    cursor: pointer; }
