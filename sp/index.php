@@ -136,16 +136,20 @@ if(isset($_SESSION['card'])){
 
                     <td rowspan="2" class="price_cell">
                       <div class="price_box">
-                        <form action="" method="post" data-api="cart_add">
+                        <form action="../addCart.php" method="post">
+                          <input type="hidden" name="type" value="sp" >
+                          <input type="hidden" name="price" value="<?php echo $card_sup_price[$i]; ?>" >
+                          <input type="hidden" name="name" value="<?php echo $card_sup_name[$i]; ?>" >
+                          <input type="hidden" name="pic" value="<?php echo $card_sup[$i]; ?>" >
                           <p class="price">
                             <br><b><?php echo $card_sup_price[$i]; ?></b>
                           </p>
                           <p class="stock">Quantity：<?php echo $card_sup_stock[$i]; ?></p>
                           <p class="quantity">
-                            <input type="text" maxlength="2" size="2" style="width:60%!important;text-align: center; "/>
+                            <input type="number" name="quan" max=<?php echo $card_sup_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:60%!important;text-align: center; "/>
                           </p>
                           <p class="cart">
-                            <span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png" alt="カートへ" data-prevent-submit=""></span>
+                            <span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png" ></span>
                           </p>
                         </form>
                       </div>

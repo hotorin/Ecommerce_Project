@@ -191,7 +191,7 @@ if(isset($_SESSION['card'])){
               <li class="card_unit rarity_SP">
 
                 <div class="headline gr_bg">
-                  <form action="/api/favorite/add.php" method="post" data-api="favorite">
+                  <form action="#" method="post" data-api="favorite">
                     <p class="favorite">
                       <span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_favorite_off.png" alt="☆" data-prevent-submit=""></span>
                     </p>
@@ -203,22 +203,29 @@ if(isset($_SESSION['card'])){
 
 
                 <div class="image_box">
-                  <a href="/game_chaos/carddetail/cardpreview.php?VER=saekano1.0&amp;CID=10111&amp;MODE=sell">
-                    <p class="image"><img src="pic/<?php echo $card_sp[$i]; ?>" height="126" alt=""></p>
-                  </a>
+                  <p class="image"><img src="pic/<?php echo $card_sp[$i]; ?>" height="126" alt=""></p>
                   <p class="name"><?php echo $card_sp_name[$i]; ?></p>
                 </div>
 
                 <div class="price_box">
-                  <form action="" method="post" data-api="cart_add" data-api-ext="card_unit">
+                  <form action="../addCart.php" method="post">
+                    <input type="hidden" name="type" value="ws" >
+                    <input type="hidden" name="price" value="<?php echo $card_sp_price[$i]; ?>" >
+                    <input type="hidden" name="name" value="<?php echo $card_sp_name[$i]; ?>" >
+                    <input type="hidden" name="pic" value="<?php echo $card_sp[$i]; ?>" >
+
                     <p class="price">
                       <br><b><?php echo $card_sp_price[$i]; ?></b>
                     </p>
                     <p class="stock">Quantity：<?php echo $card_sp_stock[$i]; ?></p>
                     <p class="quantity">
-                      <input type="number" max=<?php echo $card_sp_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
+                      <input type="number" name="quan" max=<?php echo $card_sp_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
                     </p>
-                    <p class="cart"><span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png" alt="カートへ" data-prevent-submit=""></span></p>
+                    <p class="cart">
+                      <span class="submit_wrapper">
+                        <input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png">
+                      </span>
+                    </p>
                   </form>
                 </div>
 
@@ -243,7 +250,7 @@ if(isset($_SESSION['card'])){
                 <li class="card_unit rarity_R">
 
                   <div class="headline gr_bg">
-                    <form action="/api/favorite/add.php" method="post" data-api="favorite">
+                    <form action="#" method="post" data-api="favorite">
                       <p class="favorite">
                         <span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_favorite_off.png" alt="☆" data-prevent-submit=""></span>
                       </p>
@@ -255,22 +262,29 @@ if(isset($_SESSION['card'])){
 
 
                   <div class="image_box">
-                    <a href="/game_chaos/carddetail/cardpreview.php?VER=saekano1.0&amp;CID=10111&amp;MODE=sell">
-                      <p class="image"><img src="pic/<?php echo $card_r[$i]; ?>" height="126" alt=""></p>
-                    </a>
+                    <p class="image"><img src="pic/<?php echo $card_r[$i]; ?>" height="126" alt=""></p>
                     <p class="name"><?php echo $card_r_name[$i]; ?></p>
                   </div>
 
                   <div class="price_box">
-                    <form action="" method="post" data-api="cart_add" data-api-ext="card_unit">
+                    <form action="../addCart.php" method="post">
+                      <input type="hidden" name="type" value="ws" >
+                      <input type="hidden" name="price" value="<?php echo $card_r_price[$i]; ?>" >
+                      <input type="hidden" name="name" value="<?php echo $card_r_name[$i]; ?>" >
+                      <input type="hidden" name="pic" value="<?php echo $card_r[$i]; ?>" >
+
                       <p class="price">
                         <br><b><?php echo $card_r_price[$i]; ?></b>
                       </p>
                       <p class="stock">Quantity：<?php echo $card_r_stock[$i]; ?></p>
                       <p class="quantity">
-                        <input type="number" max=<?php echo $card_r_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
+                        <input type="number" name="quan" max=<?php echo $card_r_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
                       </p>
-                      <p class="cart"><span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png" alt="カートへ" data-prevent-submit=""></span></p>
+                      <p class="cart">
+                        <span class="submit_wrapper">
+                          <input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png">
+                        </span>
+                      </p>
                     </form>
                   </div>
 
@@ -295,7 +309,7 @@ if(isset($_SESSION['card'])){
                 <li class="card_unit rarity_C">
 
                   <div class="headline gr_bg">
-                    <form action="/api/favorite/add.php" method="post" data-api="favorite">
+                    <form action="#" method="post" data-api="favorite">
                       <p class="favorite">
                         <span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_favorite_off.png" alt="☆" data-prevent-submit=""></span>
                       </p>
@@ -307,22 +321,29 @@ if(isset($_SESSION['card'])){
 
 
                   <div class="image_box">
-                    <a href="/game_chaos/carddetail/cardpreview.php?VER=saekano1.0&amp;CID=10111&amp;MODE=sell">
-                      <p class="image"><img src="pic/<?php echo $card_c[$i]; ?>" height="126" alt=""></p>
-                    </a>
+                    <p class="image"><img src="pic/<?php echo $card_c[$i]; ?>" height="126" alt=""></p>
                     <p class="name"><?php echo $card_c_name[$i]; ?></p>
                   </div>
 
                   <div class="price_box">
-                    <form action="" method="post" data-api="cart_add" data-api-ext="card_unit">
+                    <form action="../addCart.php" method="post">
+                      <input type="hidden" name="type" value="ws" >
+                      <input type="hidden" name="price" value="<?php echo $card_c_price[$i]; ?>" >
+                      <input type="hidden" name="name" value="<?php echo $card_c_name[$i]; ?>" >
+                      <input type="hidden" name="pic" value="<?php echo $card_c[$i]; ?>" >
+
                       <p class="price">
-                        <br><b><?php echo $card_r_price[$i]; ?></b>
+                        <br><b><?php echo $card_c_price[$i]; ?></b>
                       </p>
                       <p class="stock">Quantity：<?php echo $card_c_stock[$i]; ?></p>
                       <p class="quantity">
-                        <input type="number" max=<?php echo $card_c_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
+                        <input type="number" name="quan" max=<?php echo $card_c_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
                       </p>
-                      <p class="cart"><span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png" alt="カートへ" data-prevent-submit=""></span></p>
+                      <p class="cart">
+                        <span class="submit_wrapper">
+                          <input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png">
+                        </span>
+                      </p>
                     </form>
                   </div>
 
@@ -343,7 +364,7 @@ if(isset($_SESSION['card'])){
                 <li class="card_unit rarity_CC">
 
                   <div class="headline gr_bg">
-                    <form action="/api/favorite/add.php" method="post" data-api="favorite">
+                    <form action="#" method="post" data-api="favorite">
                       <p class="favorite">
                         <span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_favorite_off.png" alt="☆" data-prevent-submit=""></span>
                       </p>
@@ -355,22 +376,29 @@ if(isset($_SESSION['card'])){
 
 
                   <div class="image_box">
-                    <a href="/game_chaos/carddetail/cardpreview.php?VER=saekano1.0&amp;CID=10111&amp;MODE=sell">
-                      <p class="image"><img src="pic/<?php echo $card_cc[$i]; ?>" height="126" alt=""></p>
-                    </a>
+                    <p class="image"><img src="pic/<?php echo $card_cc[$i]; ?>" height="126" alt=""></p>
                     <p class="name"><?php echo $card_cc_name[$i]; ?></p>
                   </div>
 
                   <div class="price_box">
-                    <form action="" method="post" data-api="cart_add" data-api-ext="card_unit">
+                    <form action="../addCart.php" method="post">
+                      <input type="hidden" name="type" value="ws" >
+                      <input type="hidden" name="price" value="<?php echo $card_cc_price[$i]; ?>" >
+                      <input type="hidden" name="name" value="<?php echo $card_cc_name[$i]; ?>" >
+                      <input type="hidden" name="pic" value="<?php echo $card_cc[$i]; ?>" >
+
                       <p class="price">
                         <br><b><?php echo $card_cc_price[$i]; ?></b>
                       </p>
                       <p class="stock">Quantity：<?php echo $card_cc_stock[$i]; ?></p>
                       <p class="quantity">
-                        <input type="number" max=<?php echo $card_cc_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
+                        <input type="number" name="quan" max=<?php echo $card_cc_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
                       </p>
-                      <p class="cart"><span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png" alt="カートへ" data-prevent-submit=""></span></p>
+                      <p class="cart">
+                        <span class="submit_wrapper">
+                          <input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png">
+                        </span>
+                      </p>
                     </form>
                   </div>
 
@@ -391,7 +419,7 @@ if(isset($_SESSION['card'])){
                 <li class="card_unit rarity_S-R">
 
                   <div class="headline gr_bg">
-                    <form action="/api/favorite/add.php" method="post" data-api="favorite">
+                    <form action="#" method="post" data-api="favorite">
                       <p class="favorite">
                         <span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_favorite_off.png" alt="☆" data-prevent-submit=""></span>
                       </p>
@@ -403,22 +431,29 @@ if(isset($_SESSION['card'])){
 
 
                   <div class="image_box">
-                    <a href="/game_chaos/carddetail/cardpreview.php?VER=saekano1.0&amp;CID=10111&amp;MODE=sell">
-                      <p class="image"><img src="pic/<?php echo $card_sr[$i]; ?>" height="126" alt=""></p>
-                    </a>
+                    <p class="image"><img src="pic/<?php echo $card_sr[$i]; ?>" height="126" alt=""></p>
                     <p class="name"><?php echo $card_sr_name[$i]; ?></p>
                   </div>
 
                   <div class="price_box">
-                    <form action="" method="post" data-api="cart_add" data-api-ext="card_unit">
+                    <form action="../addCart.php" method="post">
+                      <input type="hidden" name="type" value="ws" >
+                      <input type="hidden" name="price" value="<?php echo $card_sr_price[$i]; ?>" >
+                      <input type="hidden" name="name" value="<?php echo $card_sr_name[$i]; ?>" >
+                      <input type="hidden" name="pic" value="<?php echo $card_sr[$i]; ?>" >
+
                       <p class="price">
                         <br><b><?php echo $card_sr_price[$i]; ?></b>
                       </p>
                       <p class="stock">Quantity：<?php echo $card_sr_stock[$i]; ?></p>
                       <p class="quantity">
-                        <input type="number" max=<?php echo $card_sr_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
+                        <input type="number" name="quan" max=<?php echo $card_sr_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
                       </p>
-                      <p class="cart"><span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png" alt="カートへ" data-prevent-submit=""></span></p>
+                      <p class="cart">
+                        <span class="submit_wrapper">
+                          <input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png">
+                        </span>
+                      </p>
                     </form>
                   </div>
 
@@ -441,7 +476,7 @@ if(isset($_SESSION['card'])){
                 <li class="card_unit rarity_S-C">
 
                   <div class="headline gr_bg">
-                    <form action="/api/favorite/add.php" method="post" data-api="favorite">
+                    <form action="#" method="post" data-api="favorite">
                       <p class="favorite">
                         <span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_favorite_off.png" alt="☆" data-prevent-submit=""></span>
                       </p>
@@ -453,22 +488,29 @@ if(isset($_SESSION['card'])){
 
 
                   <div class="image_box">
-                    <a href="/game_chaos/carddetail/cardpreview.php?VER=saekano1.0&amp;CID=10111&amp;MODE=sell">
-                      <p class="image"><img src="pic/<?php echo $card_sc[$i]; ?>" height="126" alt=""></p>
-                    </a>
+                    <p class="image"><img src="pic/<?php echo $card_sc[$i]; ?>" height="126" alt=""></p>
                     <p class="name"><?php echo $card_sc_name[$i]; ?></p>
                   </div>
 
                   <div class="price_box">
-                    <form action="" method="post" data-api="cart_add" data-api-ext="card_unit">
+                    <form action="../addCart.php" method="post">
+                      <input type="hidden" name="type" value="ws" >
+                      <input type="hidden" name="price" value="<?php echo $card_sc_price[$i]; ?>" >
+                      <input type="hidden" name="name" value="<?php echo $card_sc_name[$i]; ?>" >
+                      <input type="hidden" name="pic" value="<?php echo $card_sc[$i]; ?>" >
+
                       <p class="price">
                         <br><b><?php echo $card_sc_price[$i]; ?></b>
                       </p>
                       <p class="stock">Quantity：<?php echo $card_sc_stock[$i]; ?></p>
                       <p class="quantity">
-                        <input type="number" max=<?php echo $card_sc_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
+                        <input type="number" name="quan" max=<?php echo $card_sc_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
                       </p>
-                      <p class="cart"><span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png" alt="カートへ" data-prevent-submit=""></span></p>
+                      <p class="cart">
+                        <span class="submit_wrapper">
+                          <input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png">
+                        </span>
+                      </p>
                     </form>
                   </div>
 
@@ -489,7 +531,7 @@ if(isset($_SESSION['card'])){
                 <li class="card_unit rarity_S-CC">
 
                   <div class="headline gr_bg">
-                    <form action="/api/favorite/add.php" method="post" data-api="favorite">
+                    <form action="#" method="post" data-api="favorite">
                       <p class="favorite">
                         <span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_favorite_off.png" alt="☆" data-prevent-submit=""></span>
                       </p>
@@ -501,22 +543,29 @@ if(isset($_SESSION['card'])){
 
 
                   <div class="image_box">
-                    <a href="/game_chaos/carddetail/cardpreview.php?VER=saekano1.0&amp;CID=10111&amp;MODE=sell">
-                      <p class="image"><img src="pic/<?php echo $card_scc[$i]; ?>" height="126" alt=""></p>
-                    </a>
+                    <p class="image"><img src="pic/<?php echo $card_scc[$i]; ?>" height="126" alt=""></p>
                     <p class="name"><?php echo $card_scc_name[$i]; ?></p>
                   </div>
 
                   <div class="price_box">
-                    <form action="" method="post" data-api="cart_add" data-api-ext="card_unit">
+                    <form action="../addCart.php" method="post">
+                      <input type="hidden" name="type" value="ws" >
+                      <input type="hidden" name="price" value="<?php echo $card_scc_price[$i]; ?>" >
+                      <input type="hidden" name="name" value="<?php echo $card_scc_name[$i]; ?>" >
+                      <input type="hidden" name="pic" value="<?php echo $card_scc[$i]; ?>" >
+
                       <p class="price">
                         <br><b><?php echo $card_scc_price[$i]; ?></b>
                       </p>
                       <p class="stock">Quantity：<?php echo $card_scc_stock[$i]; ?></p>
                       <p class="quantity">
-                        <input type="number" max=<?php echo $card_scc_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
+                        <input type="number" name="quan" max=<?php echo $card_scc_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
                       </p>
-                      <p class="cart"><span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png" alt="カートへ" data-prevent-submit=""></span></p>
+                      <p class="cart">
+                        <span class="submit_wrapper">
+                          <input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png">
+                        </span>
+                      </p>
                     </form>
                   </div>
 
@@ -540,7 +589,7 @@ if(isset($_SESSION['card'])){
               <li class="card_unit rarity_PR">
 
                 <div class="headline gr_bg">
-                  <form action="/api/favorite/add.php" method="post" data-api="favorite">
+                  <form action="#" method="post" data-api="favorite">
                     <p class="favorite">
                       <span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_favorite_off.png" alt="☆" data-prevent-submit=""></span>
                     </p>
@@ -552,22 +601,29 @@ if(isset($_SESSION['card'])){
 
 
                 <div class="image_box">
-                  <a href="/game_chaos/carddetail/cardpreview.php?VER=saekano1.0&amp;CID=10111&amp;MODE=sell">
-                    <p class="image"><img src="pic/<?php echo $card_pr[$i]; ?>" height="126" alt=""></p>
-                  </a>
+                  <p class="image"><img src="pic/<?php echo $card_pr[$i]; ?>" height="126" alt=""></p>
                   <p class="name"><?php echo $card_pr_name[$i]; ?></p>
                 </div>
 
                 <div class="price_box">
-                  <form action="" method="post" data-api="cart_add" data-api-ext="card_unit">
+                  <form action="../addCart.php" method="post">
+                    <input type="hidden" name="type" value="ws" >
+                    <input type="hidden" name="price" value="<?php echo $card_pr_price[$i]; ?>" >
+                    <input type="hidden" name="name" value="<?php echo $card_pr_name[$i]; ?>" >
+                    <input type="hidden" name="pic" value="<?php echo $card_pr[$i]; ?>" >
+
                     <p class="price">
                       <br><b><?php echo $card_pr_price[$i]; ?></b>
                     </p>
                     <p class="stock">Quantity：<?php echo $card_pr_stock[$i]; ?></p>
                     <p class="quantity">
-                      <input type="number" max=<?php echo $card_pr_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
+                      <input type="number" name="quan" max=<?php echo $card_pr_stock[$i]; ?> min=0 maxlength="2" size="2" style="width:98%!important;text-align: center; "/>
                     </p>
-                    <p class="cart"><span class="submit_wrapper"><input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png" alt="カートへ" data-prevent-submit=""></span></p>
+                    <p class="cart">
+                      <span class="submit_wrapper">
+                        <input type="image" src="http://yuyu-tei.jp/img/common/card/btn_cart.png">
+                      </span>
+                    </p>
                   </form>
                 </div>
 

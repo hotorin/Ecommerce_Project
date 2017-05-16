@@ -102,8 +102,8 @@ if(isset($_SESSION['card'])){
               <li>Total Price <b><?php echo $total_price; ?> Yen</b></li>
             </ul>
           </div>
-          <form class="order_submit" action="/sell_cart/order.php" method="get">
-            <p><input type="image" src="http://yuyu-tei.jp/img/shop/cart/sell/btn_submit_cart.png" alt="商品を確定し注文画面に進む"></p>
+          <form class="order_submit" action="submit.php" method="post">
+            <p><input type="image" src="http://yuyu-tei.jp/img/shop/cart/sell/btn_submit_cart.png"></p>
           </form>
         </div>
 
@@ -146,8 +146,9 @@ if(isset($_SESSION['card'])){
                     </td>
                     <td class="subtotal"><?php echo (int)$_SESSION['card'][$i]['quan']*(int)$_SESSION['card'][$i]['price']; ?></td>
                     <td class="submit">
-                      <form action="/sell_cart/delete.php" method="post">
-                        <input type="image" src="http://yuyu-tei.jp/img/shop/cart/btn_item_delete.png" alt="削除">
+                      <form action="outCard.php" method="post">
+                        <input type="hidden" name="key" value=<?php echo $i; ?>>
+                        <input type="image" src="http://yuyu-tei.jp/img/shop/cart/btn_item_delete.png">
                       </form>
                     </td>
                   </tr><!-- /.item_record -->
