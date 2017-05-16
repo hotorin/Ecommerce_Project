@@ -1,7 +1,6 @@
 <?php
 session_start();
 ?>
-
 <?php
 $total_price = 0;
 for($i=0; $i<sizeof($_SESSION['card']) ; $i++){
@@ -9,7 +8,16 @@ for($i=0; $i<sizeof($_SESSION['card']) ; $i++){
   $total_price = $total_price + (int)$_SESSION['card'][$i]['price'];
 
 }
+?>
+<?php
+$total_cart = 0;
+if(isset($_SESSION['card'])){
+  for($i=0; $i<sizeof($_SESSION['card']) ; $i++){
 
+    $total_cart++;
+
+  }
+}
 ?>
 
 <html>
@@ -32,26 +40,48 @@ for($i=0; $i<sizeof($_SESSION['card']) ; $i++){
       HORI - TCG Card Game Shop
     </title>
   </header>
-  <body>
+  <body style="background-color: #f5f5f5;">
 
-    <div style="height:200px;background-color: pink;">
+    <div style="height:200px;">
       <div class="row">
-        <div class="col-md-12">
-        </div>
+        <a href="." >
+          <div class="col-md-12">
+            <div class="col-md-1"></div>
+            <div class="col-md-1">
+              <img src="./resource/logo.png" style="height:100;margin-top:20;margin-left:10%">
+            </div>
+            <div class="col-md-2" style="padding-top:30px;">
+              <div style="height:25">
+                <p style="padding-top:10px;font-size: 20px;color:black" align="center">HORI</p>
+              </div>
+              <div>
+                <hr style="border-color: white">
+              </div>
+              <div>
+                <p align="center" style="font-size: 15px;color:black">Trading Card Game Shop</p>
+              </div>
+            </div>
+          </div>
+        </a>
       </div>
-
-      <div align="center" style="height:50px;background-color: white;margin-top:140px">
+      <div style="height:50px;background-color: white;margin-top:40px">
         <div class="col-md-2"></div>
-        <div class="col-md-2" style="padding:14">Home</div>
-        <div class="col-md-2" style="padding:14">Product</div>
+        <a href="." >
+          <div class="col-md-2" style="padding:14;">Home</div>
+        </a>
+        <a href="./product/" >
+          <div class="col-md-2" style="padding:14;">Product</div>
+        </a>
         <div class="col-md-2" style="padding:14">About Us</div>
         <div class="col-md-2" style="padding:14">Contact</div>
-        <a href="../cart.php" >
-          <div class="col-md-2" style="padding:14;">Cart</div>
+        <a href="./cart.php" >
+          <div class="col-md-2" style="padding:14;">Cart
+            <?php if(isset($_SESSION['card'])){echo '('.$total_cart.")";} ?>
+          </div>
         </a>
       </div>
     </div>
-    <img src="resource/header.png" style="width:100%;">
+    <img src="resource/header.png" style="width:100%;margin-top:20">
     <div id="content">
       <div id="main" class="no_side main_cart main_sell_cart">
 

@@ -2,6 +2,16 @@
 session_start();
 ?>
 <?php
+$total_cart = 0;
+if(isset($_SESSION['card'])){
+  for($i=0; $i<sizeof($_SESSION['card']) ; $i++){
+
+    $total_cart++;
+
+  }
+}
+?>
+<?php
 
   $card_sup = array("SP-001.jpg", "SP-002.jpg", "SP-003.jpg", "SP-004.jpg", "SP-005.jpg",
                   "SP-006.jpg", "SP-007.jpg", "SP-008.jpg", "SP-009.jpg", "SP-010.jpg");
@@ -49,23 +59,46 @@ session_start();
       HORI - TCG Card Game Shop
     </title>
   </header>
-  <body style="background-color: pink;">
+  <body style="background-color: #f5f5f5;">
 
     <div id="container">
 
     <div style="height:200px;">
       <div class="row">
-        <div class="col-md-12">
-        </div>
+        <a href=".." >
+          <div class="col-md-12">
+            <div class="col-md-1"></div>
+            <div class="col-md-1">
+              <img src="../resource/logo.png" style="height:100;margin-top:20;margin-left:10%">
+            </div>
+            <div class="col-md-2" style="padding-top:30px;">
+              <div style="height:25">
+                <p style="padding-top:10px;font-size: 20px;color:black" align="center">HORI</p>
+              </div>
+              <div>
+                <hr style="border-color: white">
+              </div>
+              <div>
+                <p align="center" style="font-size: 15px;color:black">Trading Card Game Shop</p>
+              </div>
+            </div>
+          </div>
+        </a>
       </div>
-      <div style="height:50px;background-color: white;margin-top:140px">
+      <div style="height:50px;background-color: white;margin-top:40px">
         <div class="col-md-2"></div>
-        <div class="col-md-2" style="padding:14">Home</div>
-        <div class="col-md-2" style="padding:14">Product</div>
+        <a href=".." >
+          <div class="col-md-2" style="padding:14;">Home</div>
+        </a>
+        <a href="../product/" >
+          <div class="col-md-2" style="padding:14;">Product</div>
+        </a>
         <div class="col-md-2" style="padding:14">About Us</div>
         <div class="col-md-2" style="padding:14">Contact</div>
         <a href="../cart.php" >
-          <div class="col-md-2" style="padding:14;">Cart</div>
+          <div class="col-md-2" style="padding:14;">Cart
+            <?php if(isset($_SESSION['card'])){echo '('.$total_cart.")";} ?>
+          </div>
         </a>
       </div>
     </div>
