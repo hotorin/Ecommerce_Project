@@ -108,7 +108,9 @@ if(isset($_SESSION['card'])){
         <a href="../product/" >
           <div class="col-md-2" style="padding:14;">Product</div>
         </a>
-        <div class="col-md-2" style="padding:14">About Us</div>
+        <a href="../about_us.php" >
+          <div class="col-md-2" style="padding:14">About Us</div>
+        </a>
         <div class="col-md-2" style="padding:14">Contact</div>
         <a href="../cart.php" >
           <div class="col-md-2" style="padding:14;">Cart
@@ -253,7 +255,7 @@ if(isset($_SESSION['card'])){
                 for($i=0; $i<sizeof($card_rr) ; $i++){
                 ?>
                 <li class="card_unit rarity_GR">
-  
+
                   <div class="headline gr_bg">
                     <form action="#" method="post" data-api="favorite">
                       <p class="favorite">

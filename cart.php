@@ -2,10 +2,16 @@
 session_start();
 ?>
 <?php
+
+$array_use = array();
+if(!isset($_SESSION['card'])){
+  $_SESSION['card'] = array();
+}
+
 $total_price = 0;
 for($i=0; $i<sizeof($_SESSION['card']) ; $i++){
 
-  $total_price = $total_price + (int)$_SESSION['card'][$i]['price'];
+  $total_price = $total_price + (int)$_SESSION['card'][$i]['price']*(int)$_SESSION['card'][$i]['quan'];
 
 }
 ?>
