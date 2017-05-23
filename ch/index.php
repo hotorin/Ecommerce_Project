@@ -147,7 +147,9 @@ if(isset($_SESSION['card'])){
           <a href="../about_us.php" >
             <div class="col-md-2" style="padding:14">About Us</div>
           </a>
-          <div class="col-md-2" style="padding:14">Contact</div>
+          <a href="contact.php" >
+            <div class="col-md-2" style="padding:14">Contact</div>
+          </a>
           <a href="../cart.php" >
             <div class="col-md-2" style="padding:14;">Cart
               <?php if(isset($_SESSION['card'])){echo '('.$total_cart.")";} ?>

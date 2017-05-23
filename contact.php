@@ -52,7 +52,9 @@
         <a href="about_us.php" >
           <div class="col-md-2" style="padding:14">About Us</div>
         </a>
-        <div class="col-md-2" style="padding:14">Contact</div>
+        <a href="contact.php" >
+          <div class="col-md-2" style="padding:14">Contact</div>
+        </a>
         <a href="./cart.php" >
           <div class="col-md-2" style="padding:14;">Cart
             <?php if(isset($_SESSION['card'])){echo '('.$total_cart.")";} ?>
@@ -62,20 +64,8 @@
     </div>
 
     <div class="col-md-12">
-      <div id="map" style="width:400px;height:400px;background:yellow"></div>
+      <img src="resource/map.png" style="width:100%;margin-top:20">
     </div>
-
-
-<script>
-function myMap() {
-    var mapOptions = {
-        center: new google.maps.LatLng(51.5, -0.12),
-        zoom: 10,
-        mapTypeId: google.maps.MapTypeId.HYBRID
-    }
-var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-}
-</script>
 
 
   </body>
